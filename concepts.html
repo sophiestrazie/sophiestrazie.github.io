@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Concepts - Multimodal AI</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">🧠</span>
+                Multimodal AI
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="concepts.html" class="nav-link active">Concepts</a></li>
+                <li><a href="modalities.html" class="nav-link">Modalities</a></li>
+                <li><a href="architectures.html" class="nav-link">Architectures</a></li>
+                <li><a href="applications.html" class="nav-link">Applications</a></li>
+                <li><a href="resources.html" class="nav-link">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Core Concepts</h1>
+            <p>Understanding the fundamental principles of multimodal AI</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="content-wrapper">
+                    <aside class="sidebar">
+                        <nav class="toc">
+                            <h3>On This Page</h3>
+                            <ul>
+                                <li><a href="#representation">Representation Learning</a></li>
+                                <li><a href="#fusion">Multimodal Fusion</a></li>
+                                <li><a href="#alignment">Cross-Modal Alignment</a></li>
+                                <li><a href="#translation">Cross-Modal Translation</a></li>
+                                <li><a href="#attention">Attention Mechanisms</a></li>
+                                <li><a href="#embeddings">Joint Embeddings</a></li>
+                            </ul>
+                        </nav>
+                    </aside>
+
+                    <article class="main-content">
+                        <section id="representation" class="concept-section">
+                            <h2>Representation Learning</h2>
+                            <p>Representation learning is the foundation of multimodal AI. It involves learning to transform raw data from different modalities into meaningful numerical representations (embeddings) that capture semantic information.</p>
+
+                            <div class="concept-diagram">
+                                <div class="diagram-item">
+                                    <div class="diagram-icon">📝</div>
+                                    <div class="diagram-arrow">→</div>
+                                    <div class="diagram-box">Text Encoder</div>
+                                    <div class="diagram-arrow">→</div>
+                                    <div class="diagram-result">[0.2, -0.5, 0.8, ...]</div>
+                                </div>
+                                <div class="diagram-item">
+                                    <div class="diagram-icon">🖼️</div>
+                                    <div class="diagram-arrow">→</div>
+                                    <div class="diagram-box">Image Encoder</div>
+                                    <div class="diagram-arrow">→</div>
+                                    <div class="diagram-result">[0.3, -0.4, 0.7, ...]</div>
+                                </div>
+                            </div>
+
+                            <h3>Key Principles</h3>
+                            <ul class="concept-list">
+                                <li><strong>Dimensionality Reduction:</strong> Converting high-dimensional raw data into compact, meaningful vectors</li>
+                                <li><strong>Semantic Preservation:</strong> Similar concepts should have similar representations</li>
+                                <li><strong>Task Relevance:</strong> Representations should capture features useful for downstream tasks</li>
+                            </ul>
+                        </section>
+
+                        <section id="fusion" class="concept-section">
+                            <h2>Multimodal Fusion</h2>
+                            <p>Multimodal fusion combines information from different modalities to create a unified representation. There are three main fusion strategies:</p>
+
+                            <div class="fusion-types">
+                                <div class="fusion-card">
+                                    <h4>Early Fusion</h4>
+                                    <div class="fusion-diagram early">
+                                        <div class="fusion-inputs">
+                                            <span>A</span>
+                                            <span>B</span>
+                                        </div>
+                                        <div class="fusion-point"></div>
+                                        <div class="fusion-process">Joint Processing</div>
+                                        <div class="fusion-output">Output</div>
+                                    </div>
+                                    <p>Combines raw features before processing. Good for closely related modalities.</p>
+                                </div>
+
+                                <div class="fusion-card">
+                                    <h4>Late Fusion</h4>
+                                    <div class="fusion-diagram late">
+                                        <div class="fusion-inputs">
+                                            <span>A</span>
+                                            <span>B</span>
+                                        </div>
+                                        <div class="fusion-separate">
+                                            <div>Process A</div>
+                                            <div>Process B</div>
+                                        </div>
+                                        <div class="fusion-point"></div>
+                                        <div class="fusion-output">Output</div>
+                                    </div>
+                                    <p>Processes modalities separately, combines at decision level. More flexible.</p>
+                                </div>
+
+                                <div class="fusion-card">
+                                    <h4>Hybrid Fusion</h4>
+                                    <div class="fusion-diagram hybrid">
+                                        <div class="fusion-inputs">
+                                            <span>A</span>
+                                            <span>B</span>
+                                        </div>
+                                        <div class="fusion-multiple">
+                                            <div class="fusion-point small"></div>
+                                            <div class="fusion-point small"></div>
+                                        </div>
+                                        <div class="fusion-output">Output</div>
+                                    </div>
+                                    <p>Multiple fusion points at different levels. Best of both worlds.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="alignment" class="concept-section">
+                            <h2>Cross-Modal Alignment</h2>
+                            <p>Cross-modal alignment ensures that representations from different modalities are comparable in a shared space. This enables operations like finding images that match text descriptions.</p>
+
+                            <div class="alignment-visual">
+                                <div class="alignment-space">
+                                    <div class="alignment-point text-point" style="left: 30%; top: 40%;">
+                                        <span>"cat"</span>
+                                    </div>
+                                    <div class="alignment-point image-point" style="left: 35%; top: 45%;">
+                                        <span>🐱</span>
+                                    </div>
+                                    <div class="alignment-point text-point" style="left: 70%; top: 60%;">
+                                        <span>"dog"</span>
+                                    </div>
+                                    <div class="alignment-point image-point" style="left: 65%; top: 55%;">
+                                        <span>🐕</span>
+                                    </div>
+                                </div>
+                                <p class="alignment-caption">Text and image representations aligned in shared embedding space</p>
+                            </div>
+
+                            <h3>Alignment Techniques</h3>
+                            <ul class="concept-list">
+                                <li><strong>Contrastive Learning:</strong> Pull matching pairs together, push non-matching pairs apart</li>
+                                <li><strong>Canonical Correlation Analysis:</strong> Find linear projections that maximize correlation</li>
+                                <li><strong>Adversarial Training:</strong> Use discriminators to make representations indistinguishable</li>
+                            </ul>
+                        </section>
+
+                        <section id="translation" class="concept-section">
+                            <h2>Cross-Modal Translation</h2>
+                            <p>Cross-modal translation converts information from one modality to another, enabling applications like image captioning (image → text) and text-to-image generation (text → image).</p>
+
+                            <div class="translation-examples">
+                                <div class="translation-item">
+                                    <div class="translation-input">
+                                        <span class="translation-icon">🖼️</span>
+                                        <p>Image</p>
+                                    </div>
+                                    <div class="translation-arrow">→</div>
+                                    <div class="translation-model">Caption Model</div>
+                                    <div class="translation-arrow">→</div>
+                                    <div class="translation-output">
+                                        <span class="translation-icon">📝</span>
+                                        <p>"A sunset over mountains"</p>
+                                    </div>
+                                </div>
+                                <div class="translation-item">
+                                    <div class="translation-input">
+                                        <span class="translation-icon">📝</span>
+                                        <p>"A red rose"</p>
+                                    </div>
+                                    <div class="translation-arrow">→</div>
+                                    <div class="translation-model">Generation Model</div>
+                                    <div class="translation-arrow">→</div>
+                                    <div class="translation-output">
+                                        <span class="translation-icon">🖼️</span>
+                                        <p>Generated Image</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="attention" class="concept-section">
+                            <h2>Attention Mechanisms</h2>
+                            <p>Attention mechanisms allow models to focus on relevant parts of the input when processing multimodal data. Cross-attention is particularly important for relating information across modalities.</p>
+
+                            <div class="attention-demo">
+                                <h4>Cross-Attention Example</h4>
+                                <div class="attention-visual">
+                                    <div class="attention-query">
+                                        <p>Query: "Where is the cat?"</p>
+                                    </div>
+                                    <div class="attention-image">
+                                        <div class="attention-grid">
+                                            <div class="grid-cell low"></div>
+                                            <div class="grid-cell low"></div>
+                                            <div class="grid-cell medium"></div>
+                                            <div class="grid-cell low"></div>
+                                            <div class="grid-cell medium"></div>
+                                            <div class="grid-cell high"></div>
+                                            <div class="grid-cell high"></div>
+                                            <div class="grid-cell medium"></div>
+                                            <div class="grid-cell low"></div>
+                                        </div>
+                                        <p>Attention weights on image regions</p>
+                                    </div>
+                                </div>
+                                <p class="attention-explanation">The model attends more strongly to image regions likely containing the cat (highlighted in warmer colors).</p>
+                            </div>
+
+                            <h3>Types of Attention</h3>
+                            <ul class="concept-list">
+                                <li><strong>Self-Attention:</strong> Relates different positions within the same modality</li>
+                                <li><strong>Cross-Attention:</strong> Relates positions across different modalities</li>
+                                <li><strong>Multi-Head Attention:</strong> Multiple attention patterns capture different relationships</li>
+                            </ul>
+                        </section>
+
+                        <section id="embeddings" class="concept-section">
+                            <h2>Joint Embeddings</h2>
+                            <p>Joint embedding spaces map multiple modalities into a common vector space where semantic similarity can be measured directly. This is the foundation for many multimodal applications.</p>
+
+                            <div class="embedding-properties">
+                                <div class="property-card">
+                                    <h4>Semantic Similarity</h4>
+                                    <p>Similar concepts cluster together regardless of modality</p>
+                                </div>
+                                <div class="property-card">
+                                    <h4>Zero-Shot Transfer</h4>
+                                    <p>Enables recognition of new concepts without explicit training</p>
+                                </div>
+                                <div class="property-card">
+                                    <h4>Cross-Modal Retrieval</h4>
+                                    <p>Find images from text queries or vice versa</p>
+                                </div>
+                            </div>
+
+                            <div class="code-example">
+                                <h4>Conceptual Example</h4>
+                                <pre><code># Simplified joint embedding concept
+text_embedding = text_encoder("a photo of a cat")
+image_embedding = image_encoder(cat_image)
+
+# Compute similarity
+similarity = cosine_similarity(text_embedding, image_embedding)
+# High similarity indicates matching content</code></pre>
+                            </div>
+                        </section>
+
+                        <div class="next-section">
+                            <p>Now that you understand the core concepts, explore the different types of data modalities:</p>
+                            <a href="modalities.html" class="btn btn-primary">Learn About Modalities →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Multimodal AI Learning</h4>
+                    <p>An educational resource for understanding how AI systems process multiple types of data.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="concepts.html">Core Concepts</a></li>
+                        <li><a href="modalities.html">Modalities</a></li>
+                        <li><a href="architectures.html">Architectures</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Topics</h4>
+                    <ul>
+                        <li><a href="modalities.html#text">Text Processing</a></li>
+                        <li><a href="modalities.html#vision">Computer Vision</a></li>
+                        <li><a href="modalities.html#audio">Audio Analysis</a></li>
+                        <li><a href="applications.html">Applications</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Multimodal AI Learning. Educational content for everyone.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

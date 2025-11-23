@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Architectures - Multimodal AI</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">🧠</span>
+                Multimodal AI
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="concepts.html" class="nav-link">Concepts</a></li>
+                <li><a href="modalities.html" class="nav-link">Modalities</a></li>
+                <li><a href="architectures.html" class="nav-link active">Architectures</a></li>
+                <li><a href="applications.html" class="nav-link">Applications</a></li>
+                <li><a href="resources.html" class="nav-link">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Model Architectures</h1>
+            <p>The building blocks of multimodal AI systems</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="content-wrapper">
+                    <aside class="sidebar">
+                        <nav class="toc">
+                            <h3>Architectures</h3>
+                            <ul>
+                                <li><a href="#transformers">Transformers</a></li>
+                                <li><a href="#clip">CLIP</a></li>
+                                <li><a href="#vit">Vision Transformers</a></li>
+                                <li><a href="#diffusion">Diffusion Models</a></li>
+                                <li><a href="#llm-multimodal">Multimodal LLMs</a></li>
+                                <li><a href="#encoders">Encoder Architectures</a></li>
+                            </ul>
+                        </nav>
+                    </aside>
+
+                    <article class="main-content">
+                        <section id="transformers" class="architecture-section">
+                            <h2>Transformers</h2>
+                            <p>The Transformer architecture, introduced in "Attention Is All You Need" (2017), revolutionized AI and forms the backbone of modern multimodal systems.</p>
+
+                            <div class="architecture-diagram">
+                                <div class="diagram-title">Transformer Architecture</div>
+                                <div class="transformer-visual">
+                                    <div class="transformer-block">
+                                        <div class="block-layer">Multi-Head Attention</div>
+                                        <div class="block-layer">Add & Norm</div>
+                                        <div class="block-layer">Feed Forward</div>
+                                        <div class="block-layer">Add & Norm</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3>Key Components</h3>
+                            <div class="component-grid">
+                                <div class="component-card">
+                                    <h4>Self-Attention</h4>
+                                    <p>Allows each position to attend to all other positions, capturing long-range dependencies.</p>
+                                </div>
+                                <div class="component-card">
+                                    <h4>Multi-Head Attention</h4>
+                                    <p>Multiple attention heads learn different relationship patterns simultaneously.</p>
+                                </div>
+                                <div class="component-card">
+                                    <h4>Positional Encoding</h4>
+                                    <p>Injects sequence order information since attention is permutation-invariant.</p>
+                                </div>
+                                <div class="component-card">
+                                    <h4>Feed-Forward Networks</h4>
+                                    <p>Position-wise fully connected layers for non-linear transformations.</p>
+                                </div>
+                            </div>
+
+                            <h3>Why Transformers for Multimodal?</h3>
+                            <ul class="concept-list">
+                                <li><strong>Modality Agnostic:</strong> Same architecture works for text, images, audio</li>
+                                <li><strong>Cross-Attention:</strong> Natural way to relate different modalities</li>
+                                <li><strong>Scalability:</strong> Performance improves with more data and compute</li>
+                                <li><strong>Parallelization:</strong> Efficient training on modern hardware</li>
+                            </ul>
+                        </section>
+
+                        <section id="clip" class="architecture-section">
+                            <h2>CLIP (Contrastive Language-Image Pre-training)</h2>
+                            <p>CLIP by OpenAI learns visual concepts from natural language supervision, creating aligned text and image representations.</p>
+
+                            <div class="architecture-diagram">
+                                <div class="diagram-title">CLIP Architecture</div>
+                                <div class="clip-visual">
+                                    <div class="clip-branch">
+                                        <div class="clip-input">Image</div>
+                                        <div class="clip-encoder">Image Encoder<br>(ViT/ResNet)</div>
+                                        <div class="clip-embedding">I₁ I₂ I₃ ...</div>
+                                    </div>
+                                    <div class="clip-middle">
+                                        <div class="clip-matrix">
+                                            <div class="matrix-label">Similarity Matrix</div>
+                                            <div class="matrix-grid">
+                                                <div class="matrix-cell high"></div>
+                                                <div class="matrix-cell low"></div>
+                                                <div class="matrix-cell low"></div>
+                                                <div class="matrix-cell low"></div>
+                                                <div class="matrix-cell high"></div>
+                                                <div class="matrix-cell low"></div>
+                                                <div class="matrix-cell low"></div>
+                                                <div class="matrix-cell low"></div>
+                                                <div class="matrix-cell high"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clip-branch">
+                                        <div class="clip-input">Text</div>
+                                        <div class="clip-encoder">Text Encoder<br>(Transformer)</div>
+                                        <div class="clip-embedding">T₁ T₂ T₃ ...</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3>How CLIP Works</h3>
+                            <ol class="numbered-list">
+                                <li>Encode images and text captions into embeddings</li>
+                                <li>Compute similarity between all image-text pairs in a batch</li>
+                                <li>Train with contrastive loss: maximize similarity of matching pairs</li>
+                                <li>Result: aligned embedding space for both modalities</li>
+                            </ol>
+
+                            <h3>Capabilities</h3>
+                            <div class="capability-tags">
+                                <span class="capability">Zero-shot classification</span>
+                                <span class="capability">Image-text retrieval</span>
+                                <span class="capability">Foundation for generation models</span>
+                            </div>
+                        </section>
+
+                        <section id="vit" class="architecture-section">
+                            <h2>Vision Transformers (ViT)</h2>
+                            <p>ViT applies the Transformer architecture directly to images by treating image patches as tokens, achieving state-of-the-art results.</p>
+
+                            <div class="architecture-diagram">
+                                <div class="diagram-title">Vision Transformer</div>
+                                <div class="vit-visual">
+                                    <div class="vit-image">
+                                        <div class="vit-patches">
+                                            <div class="patch"></div>
+                                            <div class="patch"></div>
+                                            <div class="patch"></div>
+                                            <div class="patch"></div>
+                                            <div class="patch"></div>
+                                            <div class="patch"></div>
+                                            <div class="patch"></div>
+                                            <div class="patch"></div>
+                                            <div class="patch"></div>
+                                        </div>
+                                        <p>Image → Patches</p>
+                                    </div>
+                                    <div class="vit-arrow">→</div>
+                                    <div class="vit-embeddings">
+                                        <div class="embed-box">[CLS]</div>
+                                        <div class="embed-box">P₁</div>
+                                        <div class="embed-box">P₂</div>
+                                        <div class="embed-box">...</div>
+                                        <p>Patch Embeddings + Position</p>
+                                    </div>
+                                    <div class="vit-arrow">→</div>
+                                    <div class="vit-transformer">
+                                        <div class="transformer-mini">Transformer<br>Encoder</div>
+                                        <p>Self-Attention</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3>Key Innovations</h3>
+                            <ul class="concept-list">
+                                <li><strong>Patch Embedding:</strong> Split image into fixed-size patches (e.g., 16x16)</li>
+                                <li><strong>Linear Projection:</strong> Flatten patches and project to embedding dimension</li>
+                                <li><strong>[CLS] Token:</strong> Special token for image-level representation</li>
+                                <li><strong>Position Embeddings:</strong> Learnable or sinusoidal positional encodings</li>
+                            </ul>
+
+                            <h3>Variants</h3>
+                            <div class="variant-grid">
+                                <div class="variant">
+                                    <strong>DeiT</strong>
+                                    <p>Data-efficient training with distillation</p>
+                                </div>
+                                <div class="variant">
+                                    <strong>Swin Transformer</strong>
+                                    <p>Hierarchical with shifted windows</p>
+                                </div>
+                                <div class="variant">
+                                    <strong>BEiT</strong>
+                                    <p>BERT-style pre-training for images</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="diffusion" class="architecture-section">
+                            <h2>Diffusion Models</h2>
+                            <p>Diffusion models learn to generate data by reversing a gradual noising process. They've achieved remarkable results in image and audio generation.</p>
+
+                            <div class="architecture-diagram">
+                                <div class="diagram-title">Diffusion Process</div>
+                                <div class="diffusion-visual">
+                                    <div class="diffusion-forward">
+                                        <div class="diffusion-step">
+                                            <div class="step-image clear">🖼️</div>
+                                            <p>x₀</p>
+                                        </div>
+                                        <div class="diffusion-arrow">→</div>
+                                        <div class="diffusion-step">
+                                            <div class="step-image noisy1">🖼️</div>
+                                            <p>x₁</p>
+                                        </div>
+                                        <div class="diffusion-arrow">→</div>
+                                        <div class="diffusion-step">
+                                            <div class="step-image noisy2">🖼️</div>
+                                            <p>...</p>
+                                        </div>
+                                        <div class="diffusion-arrow">→</div>
+                                        <div class="diffusion-step">
+                                            <div class="step-image noise">📊</div>
+                                            <p>xₜ</p>
+                                        </div>
+                                        <p class="process-label">Forward Process (Add Noise)</p>
+                                    </div>
+                                    <div class="diffusion-reverse">
+                                        <div class="diffusion-step">
+                                            <div class="step-image noise">📊</div>
+                                            <p>xₜ</p>
+                                        </div>
+                                        <div class="diffusion-arrow">→</div>
+                                        <div class="diffusion-step">
+                                            <div class="step-image noisy2">🖼️</div>
+                                            <p>...</p>
+                                        </div>
+                                        <div class="diffusion-arrow">→</div>
+                                        <div class="diffusion-step">
+                                            <div class="step-image noisy1">🖼️</div>
+                                            <p>x₁</p>
+                                        </div>
+                                        <div class="diffusion-arrow">→</div>
+                                        <div class="diffusion-step">
+                                            <div class="step-image clear">🖼️</div>
+                                            <p>x₀</p>
+                                        </div>
+                                        <p class="process-label">Reverse Process (Denoise)</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3>Key Components</h3>
+                            <div class="component-grid">
+                                <div class="component-card">
+                                    <h4>U-Net Backbone</h4>
+                                    <p>Predicts noise to be removed at each step with skip connections.</p>
+                                </div>
+                                <div class="component-card">
+                                    <h4>Conditioning</h4>
+                                    <p>Text embeddings guide generation via cross-attention.</p>
+                                </div>
+                                <div class="component-card">
+                                    <h4>Latent Diffusion</h4>
+                                    <p>Operate in compressed latent space for efficiency.</p>
+                                </div>
+                                <div class="component-card">
+                                    <h4>Classifier-Free Guidance</h4>
+                                    <p>Balances diversity and adherence to prompts.</p>
+                                </div>
+                            </div>
+
+                            <h3>Notable Models</h3>
+                            <div class="model-examples">
+                                <span>Stable Diffusion</span>
+                                <span>DALL-E 2/3</span>
+                                <span>Midjourney</span>
+                                <span>Imagen</span>
+                            </div>
+                        </section>
+
+                        <section id="llm-multimodal" class="architecture-section">
+                            <h2>Multimodal Large Language Models</h2>
+                            <p>These models extend LLMs to understand and generate multiple modalities, enabling conversational AI with vision and audio capabilities.</p>
+
+                            <div class="architecture-diagram">
+                                <div class="diagram-title">Multimodal LLM Architecture</div>
+                                <div class="mllm-visual">
+                                    <div class="mllm-inputs">
+                                        <div class="mllm-input">
+                                            <span>🖼️</span>
+                                            <p>Vision Encoder</p>
+                                        </div>
+                                        <div class="mllm-input">
+                                            <span>📝</span>
+                                            <p>Text Tokenizer</p>
+                                        </div>
+                                        <div class="mllm-input">
+                                            <span>🔊</span>
+                                            <p>Audio Encoder</p>
+                                        </div>
+                                    </div>
+                                    <div class="mllm-arrow">↓</div>
+                                    <div class="mllm-projector">
+                                        <p>Projection Layers</p>
+                                    </div>
+                                    <div class="mllm-arrow">↓</div>
+                                    <div class="mllm-core">
+                                        <p>Large Language Model</p>
+                                        <span>🧠</span>
+                                    </div>
+                                    <div class="mllm-arrow">↓</div>
+                                    <div class="mllm-output">
+                                        <p>Generated Response</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3>Architecture Patterns</h3>
+                            <div class="pattern-list">
+                                <div class="pattern-item">
+                                    <h4>Frozen Encoders + Adapter</h4>
+                                    <p>Keep pre-trained encoders frozen, train projection layers to align with LLM.</p>
+                                    <span class="pattern-example">LLaVA, MiniGPT-4</span>
+                                </div>
+                                <div class="pattern-item">
+                                    <h4>End-to-End Training</h4>
+                                    <p>Train all components together on multimodal data.</p>
+                                    <span class="pattern-example">GPT-4V, Gemini</span>
+                                </div>
+                                <div class="pattern-item">
+                                    <h4>Interleaved Tokens</h4>
+                                    <p>Treat all modalities as sequences of tokens in unified vocabulary.</p>
+                                    <span class="pattern-example">Unified-IO, OFA</span>
+                                </div>
+                            </div>
+
+                            <h3>Capabilities</h3>
+                            <ul class="concept-list">
+                                <li>Visual question answering and reasoning</li>
+                                <li>Image and document understanding</li>
+                                <li>Multimodal conversation</li>
+                                <li>Code generation from screenshots</li>
+                            </ul>
+                        </section>
+
+                        <section id="encoders" class="architecture-section">
+                            <h2>Specialized Encoders</h2>
+                            <p>Different modalities benefit from specialized encoder architectures designed for their unique characteristics.</p>
+
+                            <div class="encoder-grid">
+                                <div class="encoder-card">
+                                    <h3>Text Encoders</h3>
+                                    <div class="encoder-list">
+                                        <div class="encoder-item">
+                                            <strong>BERT</strong>
+                                            <p>Bidirectional encoder for understanding tasks</p>
+                                        </div>
+                                        <div class="encoder-item">
+                                            <strong>GPT</strong>
+                                            <p>Autoregressive decoder for generation</p>
+                                        </div>
+                                        <div class="encoder-item">
+                                            <strong>T5</strong>
+                                            <p>Encoder-decoder for seq2seq tasks</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="encoder-card">
+                                    <h3>Image Encoders</h3>
+                                    <div class="encoder-list">
+                                        <div class="encoder-item">
+                                            <strong>ResNet</strong>
+                                            <p>CNN with residual connections</p>
+                                        </div>
+                                        <div class="encoder-item">
+                                            <strong>ViT</strong>
+                                            <p>Transformer-based patch encoding</p>
+                                        </div>
+                                        <div class="encoder-item">
+                                            <strong>ConvNeXt</strong>
+                                            <p>Modernized CNN architecture</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="encoder-card">
+                                    <h3>Audio Encoders</h3>
+                                    <div class="encoder-list">
+                                        <div class="encoder-item">
+                                            <strong>Wav2Vec 2.0</strong>
+                                            <p>Self-supervised speech representation</p>
+                                        </div>
+                                        <div class="encoder-item">
+                                            <strong>Whisper</strong>
+                                            <p>Robust speech recognition encoder</p>
+                                        </div>
+                                        <div class="encoder-item">
+                                            <strong>HuBERT</strong>
+                                            <p>Hidden unit discovery for speech</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <div class="next-section">
+                            <p>See how these architectures are applied in practice:</p>
+                            <a href="applications.html" class="btn btn-primary">Explore Applications →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Multimodal AI Learning</h4>
+                    <p>An educational resource for understanding how AI systems process multiple types of data.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="concepts.html">Core Concepts</a></li>
+                        <li><a href="modalities.html">Modalities</a></li>
+                        <li><a href="architectures.html">Architectures</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Topics</h4>
+                    <ul>
+                        <li><a href="modalities.html#text">Text Processing</a></li>
+                        <li><a href="modalities.html#vision">Computer Vision</a></li>
+                        <li><a href="modalities.html#audio">Audio Analysis</a></li>
+                        <li><a href="applications.html">Applications</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Multimodal AI Learning. Educational content for everyone.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

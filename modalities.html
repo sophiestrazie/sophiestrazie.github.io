@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Modalities - Multimodal AI</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">🧠</span>
+                Multimodal AI
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="concepts.html" class="nav-link">Concepts</a></li>
+                <li><a href="modalities.html" class="nav-link active">Modalities</a></li>
+                <li><a href="architectures.html" class="nav-link">Architectures</a></li>
+                <li><a href="applications.html" class="nav-link">Applications</a></li>
+                <li><a href="resources.html" class="nav-link">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Data Modalities</h1>
+            <p>Understanding the different types of data in multimodal AI systems</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="modality-intro">
+                    <p>A modality is a particular way of encoding information. In multimodal AI, we work with various data types, each with unique characteristics and processing requirements.</p>
+                </div>
+
+                <div class="modality-grid">
+                    <article id="text" class="modality-card">
+                        <div class="modality-header">
+                            <span class="modality-icon">📝</span>
+                            <h2>Text</h2>
+                        </div>
+                        <div class="modality-content">
+                            <p>Text is sequential, discrete data representing language. It's the most common modality in AI systems.</p>
+
+                            <h3>Characteristics</h3>
+                            <ul>
+                                <li>Discrete tokens (words, subwords, characters)</li>
+                                <li>Sequential structure with grammar</li>
+                                <li>Rich semantic content</li>
+                                <li>Language-dependent</li>
+                            </ul>
+
+                            <h3>Processing Techniques</h3>
+                            <div class="technique-list">
+                                <div class="technique">
+                                    <strong>Tokenization</strong>
+                                    <p>Breaking text into tokens (BPE, WordPiece, SentencePiece)</p>
+                                </div>
+                                <div class="technique">
+                                    <strong>Embeddings</strong>
+                                    <p>Word2Vec, GloVe, contextual embeddings (BERT, GPT)</p>
+                                </div>
+                                <div class="technique">
+                                    <strong>Architectures</strong>
+                                    <p>Transformers, RNNs, LSTMs</p>
+                                </div>
+                            </div>
+
+                            <h3>Common Tasks</h3>
+                            <div class="task-tags">
+                                <span class="tag">Classification</span>
+                                <span class="tag">Generation</span>
+                                <span class="tag">Translation</span>
+                                <span class="tag">Summarization</span>
+                                <span class="tag">Q&A</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="vision" class="modality-card">
+                        <div class="modality-header">
+                            <span class="modality-icon">🖼️</span>
+                            <h2>Images</h2>
+                        </div>
+                        <div class="modality-content">
+                            <p>Images are 2D grids of pixel values capturing visual information. Computer vision has been revolutionized by deep learning.</p>
+
+                            <h3>Characteristics</h3>
+                            <ul>
+                                <li>Grid structure (height × width × channels)</li>
+                                <li>Spatial relationships important</li>
+                                <li>High dimensionality</li>
+                                <li>Local patterns and global structure</li>
+                            </ul>
+
+                            <h3>Processing Techniques</h3>
+                            <div class="technique-list">
+                                <div class="technique">
+                                    <strong>Feature Extraction</strong>
+                                    <p>CNNs, Vision Transformers (ViT), patch embeddings</p>
+                                </div>
+                                <div class="technique">
+                                    <strong>Preprocessing</strong>
+                                    <p>Normalization, augmentation, resizing</p>
+                                </div>
+                                <div class="technique">
+                                    <strong>Architectures</strong>
+                                    <p>ResNet, EfficientNet, ViT, CLIP</p>
+                                </div>
+                            </div>
+
+                            <h3>Common Tasks</h3>
+                            <div class="task-tags">
+                                <span class="tag">Classification</span>
+                                <span class="tag">Detection</span>
+                                <span class="tag">Segmentation</span>
+                                <span class="tag">Generation</span>
+                                <span class="tag">Captioning</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="audio" class="modality-card">
+                        <div class="modality-header">
+                            <span class="modality-icon">🔊</span>
+                            <h2>Audio</h2>
+                        </div>
+                        <div class="modality-content">
+                            <p>Audio is temporal waveform data. It includes speech, music, and environmental sounds with rich frequency content.</p>
+
+                            <h3>Characteristics</h3>
+                            <ul>
+                                <li>Time-series signal</li>
+                                <li>Frequency and temporal patterns</li>
+                                <li>Variable length</li>
+                                <li>Multiple sources (speech, music, noise)</li>
+                            </ul>
+
+                            <h3>Processing Techniques</h3>
+                            <div class="technique-list">
+                                <div class="technique">
+                                    <strong>Feature Extraction</strong>
+                                    <p>Spectrograms, MFCCs, mel-filterbanks</p>
+                                </div>
+                                <div class="technique">
+                                    <strong>Preprocessing</strong>
+                                    <p>Sampling, normalization, noise reduction</p>
+                                </div>
+                                <div class="technique">
+                                    <strong>Architectures</strong>
+                                    <p>Wav2Vec, Whisper, Audio Transformers</p>
+                                </div>
+                            </div>
+
+                            <h3>Common Tasks</h3>
+                            <div class="task-tags">
+                                <span class="tag">Speech Recognition</span>
+                                <span class="tag">Speaker ID</span>
+                                <span class="tag">Music Analysis</span>
+                                <span class="tag">Sound Classification</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article id="video" class="modality-card">
+                        <div class="modality-header">
+                            <span class="modality-icon">🎬</span>
+                            <h2>Video</h2>
+                        </div>
+                        <div class="modality-content">
+                            <p>Video combines spatial (image) and temporal (sequence) information, often with accompanying audio. It's one of the most information-rich modalities.</p>
+
+                            <h3>Characteristics</h3>
+                            <ul>
+                                <li>Sequence of frames (temporal + spatial)</li>
+                                <li>Motion and dynamics</li>
+                                <li>Very high dimensionality</li>
+                                <li>Often multimodal itself (visual + audio)</li>
+                            </ul>
+
+                            <h3>Processing Techniques</h3>
+                            <div class="technique-list">
+                                <div class="technique">
+                                    <strong>Feature Extraction</strong>
+                                    <p>3D CNNs, Video Transformers, optical flow</p>
+                                </div>
+                                <div class="technique">
+                                    <strong>Preprocessing</strong>
+                                    <p>Frame sampling, temporal alignment</p>
+                                </div>
+                                <div class="technique">
+                                    <strong>Architectures</strong>
+                                    <p>TimeSformer, ViViT, SlowFast</p>
+                                </div>
+                            </div>
+
+                            <h3>Common Tasks</h3>
+                            <div class="task-tags">
+                                <span class="tag">Action Recognition</span>
+                                <span class="tag">Video Captioning</span>
+                                <span class="tag">Tracking</span>
+                                <span class="tag">Summarization</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <section class="other-modalities">
+                    <h2>Other Modalities</h2>
+                    <div class="other-grid">
+                        <div class="other-card">
+                            <span class="other-icon">📊</span>
+                            <h3>Structured Data</h3>
+                            <p>Tables, graphs, knowledge bases with explicit relationships between entities.</p>
+                        </div>
+                        <div class="other-card">
+                            <span class="other-icon">🌡️</span>
+                            <h3>Sensor Data</h3>
+                            <p>Time-series from IoT devices, accelerometers, medical sensors.</p>
+                        </div>
+                        <div class="other-card">
+                            <span class="other-icon">🗺️</span>
+                            <h3>3D Data</h3>
+                            <p>Point clouds, meshes, depth maps for spatial understanding.</p>
+                        </div>
+                        <div class="other-card">
+                            <span class="other-icon">🧬</span>
+                            <h3>Biological Data</h3>
+                            <p>DNA sequences, protein structures, medical images.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="modality-comparison">
+                    <h2>Modality Comparison</h2>
+                    <div class="comparison-table-wrapper">
+                        <table class="comparison-table">
+                            <thead>
+                                <tr>
+                                    <th>Aspect</th>
+                                    <th>Text</th>
+                                    <th>Image</th>
+                                    <th>Audio</th>
+                                    <th>Video</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Structure</strong></td>
+                                    <td>Sequential</td>
+                                    <td>2D Grid</td>
+                                    <td>1D Temporal</td>
+                                    <td>3D (Space+Time)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Data Type</strong></td>
+                                    <td>Discrete</td>
+                                    <td>Continuous</td>
+                                    <td>Continuous</td>
+                                    <td>Continuous</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Typical Size</strong></td>
+                                    <td>KB</td>
+                                    <td>MB</td>
+                                    <td>MB</td>
+                                    <td>GB</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Key Challenge</strong></td>
+                                    <td>Semantics</td>
+                                    <td>Spatial relations</td>
+                                    <td>Temporal patterns</td>
+                                    <td>Computation</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section class="multimodal-combinations">
+                    <h2>Common Multimodal Combinations</h2>
+                    <div class="combination-grid">
+                        <div class="combination-card">
+                            <div class="combination-icons">
+                                <span>📝</span>
+                                <span>+</span>
+                                <span>🖼️</span>
+                            </div>
+                            <h3>Text + Image</h3>
+                            <p>Image captioning, visual question answering, text-to-image generation</p>
+                            <div class="combination-models">
+                                <span>CLIP</span>
+                                <span>DALL-E</span>
+                                <span>Flamingo</span>
+                            </div>
+                        </div>
+                        <div class="combination-card">
+                            <div class="combination-icons">
+                                <span>📝</span>
+                                <span>+</span>
+                                <span>🔊</span>
+                            </div>
+                            <h3>Text + Audio</h3>
+                            <p>Speech recognition, text-to-speech, audio captioning</p>
+                            <div class="combination-models">
+                                <span>Whisper</span>
+                                <span>AudioLM</span>
+                            </div>
+                        </div>
+                        <div class="combination-card">
+                            <div class="combination-icons">
+                                <span>🖼️</span>
+                                <span>+</span>
+                                <span>🔊</span>
+                            </div>
+                            <h3>Image + Audio</h3>
+                            <p>Sound source localization, audio-visual learning</p>
+                            <div class="combination-models">
+                                <span>AudioCLIP</span>
+                                <span>SoundNet</span>
+                            </div>
+                        </div>
+                        <div class="combination-card">
+                            <div class="combination-icons">
+                                <span>📝</span>
+                                <span>+</span>
+                                <span>🖼️</span>
+                                <span>+</span>
+                                <span>🔊</span>
+                            </div>
+                            <h3>Text + Image + Audio</h3>
+                            <p>Video understanding, multimodal assistants</p>
+                            <div class="combination-models">
+                                <span>GPT-4V</span>
+                                <span>Gemini</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="next-section">
+                    <p>Learn about the model architectures that process these modalities:</p>
+                    <a href="architectures.html" class="btn btn-primary">Explore Architectures →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Multimodal AI Learning</h4>
+                    <p>An educational resource for understanding how AI systems process multiple types of data.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="concepts.html">Core Concepts</a></li>
+                        <li><a href="modalities.html">Modalities</a></li>
+                        <li><a href="architectures.html">Architectures</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Topics</h4>
+                    <ul>
+                        <li><a href="modalities.html#text">Text Processing</a></li>
+                        <li><a href="modalities.html#vision">Computer Vision</a></li>
+                        <li><a href="modalities.html#audio">Audio Analysis</a></li>
+                        <li><a href="applications.html">Applications</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Multimodal AI Learning. Educational content for everyone.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
