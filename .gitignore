@@ -3,3 +3,9 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# macOS / system noise (optional but helpful)
+.DS_Store
+
+# VS Code (optional if you want)
+.vscode/
