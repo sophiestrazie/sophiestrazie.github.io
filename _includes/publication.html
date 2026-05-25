@@ -1,0 +1,31 @@
+{%- comment -%}
+  Renders a single publication. Expects `include.pub` to be one entry
+  from _data/publications.yml. Fields: year, title, authors, venue,
+  type ("article" | "preprint" | "working" | "essay"), links (array of
+  {label, url}), abstract (optional).
+{%- endcomment -%}
+<li class="pubs__item">
+  <div class="pubs__year">{{ include.pub.year }}</div>
+  <div class="pubs__body">
+    <h3 class="pubs__title">{{ include.pub.title }}</h3>
+    {%- if include.pub.authors -%}
+      <p class="pubs__venue" style="font-style: normal; color: var(--color-ink);">
+        {{ include.pub.authors }}
+      </p>
+    {%- endif -%}
+    {%- if include.pub.venue -%}
+      <p class="pubs__venue">{{ include.pub.venue }}</p>
+    {%- endif -%}
+    {%- if include.pub.abstract -%}
+      <p class="pubs__abstract">{{ include.pub.abstract }}</p>
+    {%- endif -%}
+    <div class="pubs__links">
+      {%- if include.pub.type -%}
+        <span class="chip chip--accent">{{ include.pub.type }}</span>
+      {%- endif -%}
+      {%- for link in include.pub.links -%}
+        <a class="chip" href="{{ link.url }}" rel="noopener">{{ link.label }}</a>
+      {%- endfor -%}
+    </div>
+  </div>
+</li>

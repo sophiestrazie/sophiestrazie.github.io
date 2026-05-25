@@ -1,0 +1,24 @@
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-header__brand" href="{{ '/' | relative_url }}">
+      Sophie <span class="site-header__brand-mark">Strassmann-Peña</span>
+    </a>
+
+    <nav class="site-header__nav" aria-label="Primary">
+      {%- for item in site.nav -%}
+        {%- assign target = item.url | relative_url -%}
+        {%- assign here = page.url -%}
+        {%- assign active = false -%}
+        {%- if item.url == "/" and here == "/" -%}{%- assign active = true -%}
+        {%- elsif item.url != "/" and here contains item.url -%}{%- assign active = true -%}
+        {%- endif -%}
+        <a class="site-header__nav-link{% if active %} is-active{% endif %}" href="{{ target }}">{{ item.title }}</a>
+      {%- endfor -%}
+
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" data-theme-toggle>
+        <span data-theme-icon-light>☼</span>
+        <span data-theme-icon-dark hidden>☾</span>
+      </button>
+    </nav>
+  </div>
+</header>

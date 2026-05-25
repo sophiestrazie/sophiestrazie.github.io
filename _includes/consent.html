@@ -1,0 +1,34 @@
+{%- comment -%}
+  Cookie consent banner — Law 25 (Quebec) & GDPR-aware.
+
+  Shown by consent.js only if no decision has been recorded yet.
+  Hidden by default so it doesn't flash before JS runs.
+
+  Three actions:
+    - data-consent="accept"     → load GA + PostHog
+    - data-consent="essentials" → load nothing tracking-related
+    - data-consent="reject"     → same as essentials, with explicit "no"
+{%- endcomment -%}
+<div class="consent" id="consent-banner" hidden aria-labelledby="consent-title" role="dialog">
+  <div class="consent__inner">
+    <div class="consent__copy">
+      <h2 id="consent-title" class="consent__title">A note on cookies &amp; analytics</h2>
+      <p class="consent__text">
+        I'd like to use Google Analytics and PostHog (EU servers) to
+        understand which pages are useful and where readers get stuck.
+        Both set cookies. Google Analytics anonymizes your IP; PostHog
+        respects your browser's "Do Not Track" setting. Nothing loads
+        until you choose below — you can change your mind any time via
+        <em>Cookie preferences</em> in the footer.
+      </p>
+    </div>
+    <div class="consent__actions">
+      <button class="btn consent__btn" type="button" data-consent="essentials">
+        Essentials only
+      </button>
+      <button class="btn btn--primary consent__btn" type="button" data-consent="accept">
+        Accept analytics
+      </button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div>
+      © {{ site.time | date: "%Y" }} {{ site.author.name }}.
+      All rights reserved.
+    </div>
+    <div>
+      <a href="mailto:{{ site.author.email }}">Email</a>
+      &middot;
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/" rel="noopener">LinkedIn</a>
+      {%- if site.author.orcid -%}
+        &middot; <a href="https://orcid.org/{{ site.author.orcid }}" rel="noopener">ORCID</a>
+      {%- endif -%}
+      {%- if site.author.github -%}
+        &middot; <a href="https://github.com/{{ site.author.github }}" rel="noopener">GitHub</a>
+      {%- endif -%}
+      &middot;
+      <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+      &middot;
+      <button type="button" class="consent-reset" data-consent-reset>Cookie preferences</button>
+    </div>
+  </div>
+</footer>
