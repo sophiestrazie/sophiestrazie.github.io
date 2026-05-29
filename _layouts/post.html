@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="container">
+  <header class="page-header" style="margin-top: var(--sp-6); margin-bottom: var(--sp-8);">
+    <p class="section__eyebrow">{{ page.date | date: "%B %-d, %Y" }}</p>
+    <h1 style="margin-top: 0;">{{ page.title }}</h1>
+  </header>
+
+  <article class="page-content">
+    {{ content }}
+  </article>
+</div>

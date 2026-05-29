@@ -1,0 +1,91 @@
+{%- comment -%}
+  Analytics loader — Google Analytics 4 + PostHog.
+
+  This file does NOT auto-load any tracker. It only emits the loader
+  functions onto window so consent.js can invoke them after the visitor
+  clicks "Accept analytics".
+
+  Configuration lives in _config.yml under `analytics:`. To disable a
+  provider, set its id/key to the empty string "" and the corresponding
+  loader becomes a no-op.
+{%- endcomment -%}
+
+{%- assign ga_id        = site.analytics.ga_id        | default: "" -%}
+{%- assign posthog_key  = site.analytics.posthog_key  | default: "" -%}
+{%- assign posthog_host = site.analytics.posthog_host | default: "https://eu.i.posthog.com" -%}
+
+<script>
+  (function () {
+    'use strict';
+
+    // ----------------------------------------------------------------
+    // Google Analytics 4 loader.
+    // Called by consent.js. Idempotent — safe to call twice.
+    // ----------------------------------------------------------------
+    window.__loadGA = function () {
+      {%- if ga_id != "" %}
+      if (window.__gaLoaded) return;
+      window.__gaLoaded = true;
+
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id={{ ga_id }}';
+      document.head.appendChild(s);
+
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      // IP anonymization is on by default in GA4, but we make it explicit
+      // and disable Google Signals (cross-device tracking via Google account).
+      window.gtag('config', '{{ ga_id }}', {
+        anonymize_ip: true,
+        allow_google_signals: false,
+        allow_ad_personalization_signals: false
+      });
+      {%- else %}
+      /* GA disabled — no ga_id configured in _config.yml */
+      {%- endif %}
+    };
+
+    // ----------------------------------------------------------------
+    // PostHog loader.
+    // ----------------------------------------------------------------
+    window.__loadPostHog = function () {
+      {%- if posthog_key != "" and posthog_key != "phc_REPLACE_WITH_YOUR_KEY" %}
+      if (window.__phLoaded) return;
+      window.__phLoaded = true;
+
+      // Standard PostHog snippet, lightly trimmed.
+      !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys getNextSurveyStep onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+
+      posthog.init('{{ posthog_key }}', {
+        api_host: '{{ posthog_host }}',
+        // Privacy posture: respect Do Not Track, mask all input fields in
+        // session replay, anonymize on capture until/unless explicitly
+        // identified.
+        respect_dnt: true,
+        autocapture: true,
+        capture_pageview: true,
+        capture_pageleave: true,
+        session_recording: {
+          maskAllInputs: true,
+          maskTextSelector: '[data-private]'
+        },
+        // Don't send to PostHog Cloud's bootstrapped feature-flag eval
+        // unless we're actually using flags.
+        advanced_disable_decide: false
+      });
+      {%- else %}
+      /* PostHog disabled — no posthog_key configured, or still the placeholder. */
+      {%- endif %}
+    };
+
+    // ----------------------------------------------------------------
+    // Loader that consent.js calls once for both.
+    // ----------------------------------------------------------------
+    window.__loadAnalytics = function () {
+      try { window.__loadGA(); }      catch (e) { console.warn('GA load failed:', e); }
+      try { window.__loadPostHog(); } catch (e) { console.warn('PostHog load failed:', e); }
+    };
+  })();
+</script>

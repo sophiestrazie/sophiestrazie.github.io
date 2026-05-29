@@ -1,0 +1,54 @@
+// ============================================================
+// Dark mode
+// ============================================================
+// Triggered by a data attribute on <html> set via JS, with
+// prefers-color-scheme as the initial default.
+
+[data-theme="dark"] {
+  --color-bg:           #1a1513;
+  --color-bg-alt:       #251e1b;
+  --color-surface:      #2b2320;
+  --color-ink:          #f1ebe2;
+  --color-ink-soft:     #b5a89f;
+  --color-rule:         #3a302c;
+
+  --color-accent:       #d99aae;   // dusty rose pops on dark
+  --color-accent-soft:  #b87b8e;
+  --color-accent-bg:    #3a242b;
+
+  --color-link:         var(--color-accent);
+  --color-link-hover:   #f0c0d0;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="dark"] .site-header {
+  background: rgba(26, 21, 19, 0.85);
+}
+
+// Smooth transition only after JS mounts (avoids flash on load).
+.theme-ready {
+  &, * {
+    transition: background-color 240ms var(--ease),
+                color 240ms var(--ease),
+                border-color 240ms var(--ease);
+  }
+}
+
+// Respect prefers-color-scheme when no manual choice stored.
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]):not([data-theme="dark"]) {
+    --color-bg:           #1a1513;
+    --color-bg-alt:       #251e1b;
+    --color-surface:      #2b2320;
+    --color-ink:          #f1ebe2;
+    --color-ink-soft:     #b5a89f;
+    --color-rule:         #3a302c;
+    --color-accent:       #d99aae;
+    --color-accent-soft:  #b87b8e;
+    --color-accent-bg:    #3a242b;
+    --color-link:         var(--color-accent);
+    --color-link-hover:   #f0c0d0;
+  }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="">
+  {%- include head.html -%}
+
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    {%- include header.html -%}
+
+    <main id="content">
+      {{ content }}
+    </main>
+
+    {%- include footer.html -%}
+
+    {%- comment -%}
+      Consent banner sits at the end of <body> so it overlays content
+      but doesn't appear above the page in the DOM order — better for
+      screen readers, which read top-to-bottom.
+    {%- endcomment -%}
+    {%- include consent.html -%}
+
+    {%- comment -%}
+      Analytics loader is *defined* on every page, but the actual
+      tracker scripts only run if consent.js calls window.__loadAnalytics()
+      after the visitor accepts. See _includes/analytics.html.
+    {%- endcomment -%}
+    {%- include analytics.html -%}
+
+    <script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
+    <script src="{{ '/assets/js/consent.js' | relative_url }}" defer></script>
+  </body>
+</html>

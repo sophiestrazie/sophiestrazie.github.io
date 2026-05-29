@@ -1,0 +1,96 @@
+# =========================================================================
+# Publications & Working Papers
+# =========================================================================
+# Edit this file to add/remove entries. Re-orders automatically by year
+# (the template sorts descending). Each entry renders via the
+# publication.html include.
+#
+# Schema per entry:
+#   year:      integer
+#   title:     string
+#   authors:   string (HTML allowed for em-dash, accents)
+#   venue:     string (italicized journal/series name)
+#   type:      "Article" | "Preprint" | "Working paper" | "Essay" | "Report"
+#   abstract:  string (optional, ≤ ~30 words)
+#   links:
+#     - label: "DOI" | "PDF" | "OSF" | "Code" | "Crossref" | etc.
+#       url:   URL
+
+- year: 2023
+  title: "Ability and Neurodiversity"
+  authors: "Strassmann-Peña, S."
+  venue: "OSF Preprint"
+  type: "Preprint"
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.17605/OSF.IO/T4E37"
+
+- year: 2023
+  title: "A Replication of Chiswick & Miller (2007): Language Skills, Linguistic Concentrations, and the Business Cycle"
+  authors: "Strassmann-Peña, S."
+  venue: "OSF Preprint"
+  type: "Preprint"
+  links:
+    - label: "OSF"
+      url: "https://osf.io/u5cxn/?view_only=cb3c5d6041fd4d31a5a8d4a518236d34"
+
+- year: 2023
+  title: "Waiting on Superwoman: Researcher-Centric Methodology"
+  authors: "Strassmann-Peña, S."
+  venue: "OSF Preprint"
+  type: "Preprint"
+  links:
+    - label: "OSF"
+      url: "https://osf.io/astzq/?view_only=71d5e67d8a3a4d0bbb4bb7c3d027302c"
+
+- year: 2023
+  title: "Rethinking Public Transportation for the Neurospicy"
+  authors: "Strassmann-Peña, S."
+  venue: "OSF Preprint"
+  type: "Preprint"
+  links:
+    - label: "OSF"
+      url: "https://osf.io/5ghb6/?view_only=500c49a77d664b64a08f709382c878f5"
+
+- year: 2023
+  title: "Researcher-Oriented Methodology for GIS"
+  authors: "Strassmann-Peña, S."
+  venue: "Working paper — viewable upon publication."
+  type: "Working paper"
+
+- year: 2022
+  title: "John Stuart Mill on the Merits of Colonization"
+  authors: "Strassmann-Peña, S."
+  venue: "McGill Journal of Economics, 2022 Edition"
+  type: "Article"
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.17605/OSF.IO/J4BV9"
+
+- year: 2022
+  title: "Is It Time for Legault to LeStop? The Language Economics of Bill 96"
+  authors: "Strassmann-Peña, S."
+  venue: "McGill International Review (MIR)"
+  type: "Essay"
+  links:
+    - label: "Read"
+      url: "https://www.mironline.ca/is-it-time-for-legault-to-lestop/"
+
+- year: 2020
+  title: "Integrating Indigenous Perspectives in Environmental Policy: Bridging Gaps for Effective Reconciliation"
+  authors: "Strassmann-Peña, S., Benavides-Alfaro, P., Sarr, K., Pollack-Toro, S., & Bergeron, S."
+  venue: "Working paper"
+  type: "Working paper"
+
+# ------------------- Pipeline / not yet public -------------------
+- year: 2026
+  title: "Human Capital of Linguistic Diversity"
+  authors: "Strassmann-Peña, S."
+  venue: "In preparation — access to requisite testable data available on request."
+  type: "Working paper"
+
+- year: 2026
+  title: "It's of Little Use: Crying Over Spilled Utility Functions"
+  authors: "Strassmann-Peña, S."
+  venue: "In preparation — viewable upon publication."
+  type: "Working paper"

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="container">
+  {%- if page.title and page.hide_title != true -%}
+  <header class="page-header" style="margin-top: var(--sp-6); margin-bottom: var(--sp-8);">
+    {%- if page.eyebrow -%}
+      <p class="section__eyebrow">{{ page.eyebrow }}</p>
+    {%- endif -%}
+    <h1 style="margin-top: 0;">{{ page.title }}</h1>
+    {%- if page.subtitle -%}
+      <p style="color: var(--color-ink-soft); font-size: var(--fs-md); margin: 0;">{{ page.subtitle }}</p>
+    {%- endif -%}
+  </header>
+  {%- endif -%}
+
+  <article class="page-content">
+    {{ content }}
+  </article>
+</div>
