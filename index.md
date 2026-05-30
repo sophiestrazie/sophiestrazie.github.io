@@ -121,7 +121,7 @@ permalink: /
       <h3 class="card__title">Tutoring</h3>
       <p class="card__body">
         R, statistics, micro/macro, labour economics. Collaborative, adaptive,
-        neurodiversity-affirming. Free consult.
+        inclusive. Free consult.
       </p>
     </a>
     <a href="{{ '/about/' | relative_url }}" class="card" style="border-bottom-color: var(--color-rule);">
