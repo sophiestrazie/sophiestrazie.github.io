@@ -9,7 +9,7 @@ permalink: /teaching/
 I hold a B.A. in Economics from McGill University with six years of research
 experience across language economics, housing policy, labour economics,
 Indigenous economic measurement, and machine learning. I bring that range to
-your coursework — high school through graduate-level — and to research
+your coursework, high school through graduate-level, and to research
 sound-boarding between sessions with your supervisor.
 
 ## Supported subjects
