@@ -68,7 +68,7 @@ The Indigenous economy study made this concrete. My recommendations ensured that
 would establish capacity for economic reporting from corpora written in native languages such as
 Inuktitut. The estimate tripled, in part, because we stopped discarding evidence by language.
 
-## I'm A Polymath
+## I'm A Polymath.
 
 People with genuinely cross-disciplinary training often understate it because each field they
 touch makes them feel like an outsider. I have learned to read this feeling as a signal that
@@ -96,14 +96,15 @@ as an oddity but as evidence that the communication problem in economics is real
 
 ## Athletics
 
-![Competitive Figure Skating, The Skating Club of Boston](/assets/img/scob.jpeg)
-
 Before research, I trained as a competitive figure skater at the
 [Skating Club of Boston](https://scboston.org/), the third-oldest American skating club, founded
 in 1912, and a founding member of U.S. Figure Skating. The club has trained Olympic medalists
 and national champions for over a century, and placed three skaters on the 2026 U.S. Olympic
 team for the Winter Games in Milan. I was part of the development pipeline that institution is
 known for.
+
+![Competitive Figure Skating, The Skating Club of Boston](/assets/img/scob.jpeg)
+
 
 I have also trained and competed in eight styles of dance, winning awards across multiple
 disciplines. I currently train in military-grade Krav Maga and enjoy a practice of daily 

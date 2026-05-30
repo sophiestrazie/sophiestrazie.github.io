@@ -13,7 +13,7 @@ innovations that demonstrably improve research quality? Diffusion of innovations
 theory predicts that techniques offering relative advantage, compatibility, and
 observability should spread rapidly through professional communities. In
 practice, computational methods that have been routine in computer science for
-years — sometimes decades — remain marginal in economics and adjacent fields.
+years,  sometimes decades, remain marginal in economics and adjacent fields.
 
 This pattern resembles what Hall (1993) terms resistance to "third-order
 change": paradigmatic shifts that alter not just policy instruments but the
@@ -60,9 +60,8 @@ training programs.
 
 ## Supervisor &amp; setting
 
-Proposed supervisor: **Jean-François Godbout**, Université de Montréal —
-expertise in pedagogy, interdisciplinary collaboration, and computational
-social science. Incoming M.A. in Political Science, Fall 2026.
+Expertise in pedagogy, interdisciplinary collaboration, and computational
+social science.
 
 <!-- ===================================================================
      Full publications list

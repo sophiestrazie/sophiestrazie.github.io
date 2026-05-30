@@ -15,7 +15,7 @@ permalink: /cv/
 Interdisciplinary researcher and self-taught coder in human-capital economics
 with training in econometrics, geomatics, computational linguistics, and
 machine learning. My work addresses measurement gaps affecting marginalized
-populations — from Indigenous economic valuation to algorithmic fairness in
+populations,  from Indigenous economic valuation to algorithmic fairness in
 employment systems. Polyglot fluent in English, French, and Spanish, with
 classroom training in Urdu, Hindi, and Persian/Farsi.
 
@@ -39,14 +39,14 @@ Distinction, 2025); Studio 1 (Scientific Entrepreneurship, 2025).
 **May 2025 – Nov 2025.**
 Founder of Mindful Human Capital, addressing methodology gaps in economics
 training. Led an interdisciplinary team developing a foundational model of the
-brain — multimodal AI for brain encoding prediction using Transformers, CNNs,
+brain,  multimodal AI for brain encoding prediction using Transformers, CNNs,
 and RNNs on audio, text, and video. Formal training in mathematical
 foundations, supervised &amp; unsupervised learning, CNNs, RNNs, transformers,
 and reinforcement learning from senior engineers at Mila and Google DeepMind.
 
 ### Data Specialist &amp; Executive Support — *Indigenomics Institute &amp; Global Centre for Indigenomics*
 **Sep 2024 – May 2025.**
-Core technical contributor to the $100B Indigenous Economy AI Study — the
+Core technical contributor to the $100B Indigenous Economy AI Study,  the
 first economic study by Indigenous peoples in Canada. Reporting to Carol Anne
 Hilton and AI Advisory Chair K Krasnow Waterman, introduced innovative data
 sovereignty frameworks. Methodological contributions allowed the study to ship
@@ -87,9 +87,9 @@ quoted by Statistics Canada.
 **Methods:** Multimodal AI &amp; data visualization (2D/3D/4D, interactive, mapping); geomatics (vector &amp; raster); econometrics (OLS, logit, probit, heteroskedasticity corrections, DiD); index creation; history of economic thought.
 **Production:** Scalable GitHub projects, prompt engineering, prototypes for ML applications.
 
-## Languages
+## Polyglot
 
-English, Spanish, French — fluent. Urdu, Persian (Farsi) — classroom.
+English, Spanish, French, Urdu, Hindi, and Persian (Farsi).
 
 ## Conferences &amp; affiliations
 
