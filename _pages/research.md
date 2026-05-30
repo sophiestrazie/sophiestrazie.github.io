@@ -6,14 +6,15 @@ subtitle: "Human capital quality in knowledge work, with a focus on computationa
 permalink: /research/
 ---
 
-## The puzzle
+## The Puzzle
 
 Why do knowledge-producing disciplines systematically resist methodological
 innovations that demonstrably improve research quality? Diffusion of innovations
 theory predicts that techniques offering relative advantage, compatibility, and
 observability should spread rapidly through professional communities. In
 practice, computational methods that have been routine in computer science for
-years,  sometimes decades, remain marginal in economics and adjacent fields.
+years, sometimes decades, remain marginal in economics and adjacent fields 
+disproportionately occupying positions of responsibility in government.
 
 This pattern resembles what Hall (1993) terms resistance to "third-order
 change": paradigmatic shifts that alter not just policy instruments but the
@@ -21,41 +22,36 @@ underlying goals and frameworks of a professional community. Disciplines, like
 states, develop entrenched paradigms that filter how practitioners interpret
 new information and evaluate alternatives.
 
-The puzzle has direct implications for democratic governance. Social scientists
-train and advise policymakers responsible for everything from climate adaptation
-to labour-market design. When those disciplines cannot engage with the
-computational tools reshaping the information their advisees rely on, their
-capacity to govern degrades exactly as policy questions grow more complex.
+The puzzle has direct implications for democratic governance. When those 
+disciplines cannot engage with the skills reshaping the information their 
+advisees rely on, their capacity to govern degrades exactly as policy questions 
+grow more complex.
 
 ## Research design
 
 My dissertation examines the adoption process of computational methods across
 social science disciplines, with a focus on political science and economics. I
-frame this as a question of institutional resistance to technological change —
-a political-science problem concerning how professional communities, incentive
+frame this as a question of institutional resistance to technological change:
+an essential AI Policy coordination problem concerning how professional communities, incentive
 structures, and disciplinary norms shape meaningful knowledge production.
 
 ### Question 1 — What explains variation in computational adoption across disciplines?
 
 I'm constructing a bibliometric dataset tracking first-use dates of specific
 techniques (machine learning classifiers, natural language processing, neural
-networks) across disciplinary journals. This documents the adoption lag
-empirically: the time between a method's introduction in computer science and
-its appearance in social science publications.
+networks) across disciplinary journals. 
 
 ### Question 2 — What mechanisms drive resistance at the individual level?
 
 Using primary survey data from academic, government, and private-sector
 researchers, I examine cognitive, institutional, and pedagogical barriers to
-skill acquisition. Pilot collaborations with Georgetown CSET, the Conference
-Board of Canada, and the US Federal Reserve will inform survey design and
-provide access to non-academic populations.
+skill acquisition. Pilot collaborations with organizations such as Georgetown 
+University, the Conference Board of Canada, and the US Federal Reserve,
+will inform survey design and provide access to non-academic populations.
 
 ### Question 3 — Can targeted interventions accelerate adoption?
 
-Field experiments testing pedagogical approaches: intensive versus distributed
-training, discipline-specific versus generic curricula, peer-led versus
-expert-led instruction. Quasi-experimental methods will evaluate existing
+Field experiments testing pedagogical approaches will evaluate existing
 training programs.
 
 ## Supervisor &amp; setting
