@@ -19,7 +19,7 @@ permalink: /
       I study how knowledge-producing institutions adopt, or fail to adopt,
       computational methods. My work sits at the intersection of human-capital
       economics, computational social science, and the political economy of
-      methodological change, with applied threads in Indigenous economic
+      methodological change, with applied threads in creative economic
       measurement and algorithmic fairness in employment systems.
     </p>
 
