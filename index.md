@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: "S.E. Strassmann"
 description: "Interdisciplinary researcher in human capital economics and computational social science."
 permalink: /
