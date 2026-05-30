@@ -23,7 +23,8 @@ and academic excellence. This is my story:
 
 I grew up between Cambridge and Brookline, Massachusetts, while adjacent in geography I lived
 as worlds apart in almost everything else: high income and low income, libertarian and democrat,
-white American and immigrant households, military life and pacificsts. 
+different views on faith, white American and immigrant communities, and ecosystems that valued
+military service on one hand and pacifism on the other.
 
 Both worlds could not have been in more opposition: giving me an advantage over other experts 
 as political life became increasingly polarized.
