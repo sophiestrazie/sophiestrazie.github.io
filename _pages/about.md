@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 eyebrow: "Who am I?"
-subtitle: "Researcher, polymath, and recovering competitive athlete."
+subtitle: "Researcher, polymath, cancer survivor, professional artist, and competitive athlete."
 permalink: /about/
 ---
 
