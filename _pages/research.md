@@ -84,10 +84,10 @@ social science.
   <h2 class="section__title">Past &amp; present</h2>
 
   <ul>
-    <li><strong>Université de Montréal</strong> — incoming M.A., Political Science (Fall 2026)</li>
-    <li><strong>Mila — Quebec Artificial Intelligence Institute</strong> — AI4Good Lab × Mila ELab Fellow (2025)</li>
+    <li><strong>Université de Montréal</strong> — incoming graduate studies </li>
+    <li><strong>Mila — Quebec Artificial Intelligence Institute</strong> — AI4Good Lab Fellow × Mila ELab (2025)</li>
     <li><strong>Indigenomics Institute &amp; Global Centre for Indigenomics</strong> — Data Specialist &amp; Executive Support (2024–2025)</li>
     <li><strong>Center for AI and Digital Policy (CAIDP)</strong> — Distinguished Research Member (2025)</li>
-    <li><strong>McGill University</strong> — B.A. Economics, Data Science Concentration (2023)</li>
+    <li><strong>McGill University</strong> — B.A. Economics, Islamic Studies Minor - Urdu (2023)</li>
   </ul>
 </section>

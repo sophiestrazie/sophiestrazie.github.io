@@ -21,17 +21,17 @@ classroom training in Urdu, Hindi, and Persian/Farsi.
 
 ## Education
 
-**Université de Montréal** — *Incoming M.A., Political Science (research stream).*
+**Université de Montréal** — *Incoming graduate studies (research stream).*
 Admitted March 2026. Tutor: Prof. Jean-François Godbout. Fall 2026 entry.
 
-**McGill University** — *B.A. Economics, Data Science Concentration. 2023.*
+**McGill University** — *B.A. Economics, Islamic Studies - Urdu Minor. 2023.*
 Completed Masters/PhD coursework under Prof. Elissa Berwick in quantitative
 social science. Mixed honours coursework across economics, political science,
 geomatics, and linguistics. Minor in Urdu Language.
 
 **Certificates** — CIFAR &amp; First Nations University of Canada (Reconciliation
 Education &amp; Indigenous Perspectives in AI, 2024); CAIDP (AI Policy, with
-Distinction, 2025); Studio 1 (Scientific Entrepreneurship, 2025).
+Distinction, 2025); Studio V1 (Scientific Entrepreneurship, 2025).
 
 ## Selected experience
 
