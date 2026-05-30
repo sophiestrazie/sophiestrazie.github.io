@@ -16,7 +16,7 @@ author:
   github: # add when available
 
 # Replace with your real GitHub Pages URL after deploying.
-url: "https://YOUR-USERNAME.github.io"
+url: "https://sophiestrazie.github.io"
 baseurl: "" # leave empty if deploying to <username>.github.io; set to "/repo-name" otherwise
 
 # =========================================================================
@@ -125,7 +125,7 @@ analytics:
 
   # PostHog project API key. Get one at https://eu.posthog.com after sign-up
   # (free tier: 1M events/month). Replace the placeholder before deploy.
-  posthog_key: "phc_REPLACE_WITH_YOUR_KEY"
+  posthog_key: "phc_r4WzjUy4sLffAiwtpkkZMDgYd7RdJzTgZ6FWV86mbGsG"
 
   # EU instance per Law 25 / GDPR data-residency preference.
   # Change to "https://us.i.posthog.com" if you ever move to US instance.
