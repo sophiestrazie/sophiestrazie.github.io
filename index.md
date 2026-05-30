@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Sophie Strassmann-Peña"
+title: "S.E. Strassmann"
 description: "Interdisciplinary researcher in human capital economics and computational social science."
 permalink: /
 ---
@@ -13,10 +13,10 @@ permalink: /
     </h1>
     <p class="hero__role">
       Researcher · Mindful Human Capital ·
-      Incoming M.A., Political Science, Université de Montréal
+      Incoming Graduate Student, Political Economy, Université de Montréal
     </p>
     <p class="hero__lede">
-      I study how knowledge-producing institutions adopt — or fail to adopt —
+      I study how knowledge-producing institutions adopt, or fail to adopt,
       computational methods. My work sits at the intersection of human-capital
       economics, computational social science, and the political economy of
       methodological change, with applied threads in Indigenous economic
@@ -33,7 +33,7 @@ permalink: /
 
   <div class="hero__portrait">
     <!-- Drop your portrait at assets/img/portrait.png. Aspect: square. -->
-    <img src="{{ '/assets/img/portrait.png' | relative_url }}"
+    <img src="{{ '/assets/img/portrait.jpeg' | relative_url }}"
          alt="Portrait of Sophie Strassmann-Peña"
          onerror="this.style.display='none'">
   </div>

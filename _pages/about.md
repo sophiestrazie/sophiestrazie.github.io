@@ -8,7 +8,7 @@ permalink: /about/
 
 My philosophy is built on generalizability, optimization, risk minimization,
 and creative interdisciplinary insight. I believe quality analysis comes from
-the researcher and their story — that the person doing the work, and the
+the researcher and their story; that the person doing the work, and the
 context they carry, materially shape what kinds of questions get asked and
 what answers are visible. I pay close attention to every detail and try to
 ensure that each project I work on meets the highest standards of analysis
@@ -19,17 +19,16 @@ from outside the field.
 
 My diverse background has let me approach my work in more nuanced ways. I've
 always found that learning a new language is the easiest path to adopting a
-new paradigm — that is, to seeing why people in another tradition find certain
+new paradigm: that is, to seeing why people in another tradition find certain
 questions obvious and others nonsensical.
 
-- Three languages **natively**: French, Spanish, English.
-- Two additional languages **learned in university**: Persian and Urdu.
+*I have a background in six languages: English, French, Spanish, Urdu, Hindi, and Persian/Farsi*
 
 This shapes how I read evidence. A field that treats only English-language
 sources as data is missing systematic, *patterned* parts of the world. My
-work on the $100B Indigenous Economy AI Study at Indigenomics — which tripled
+work on the $100B Indigenous Economy AI Study at Indigenomics, which tripled
 the prior estimate of Indigenous economic contribution to Canadian GDP, in
-part by including non-English sources — sharpened this conviction into a
+part by including non-English sources, sharpened this conviction into a
 methodological commitment.
 
 ## Volunteering and mentorship
@@ -46,8 +45,11 @@ methodological commitment.
 
 ## Humour and social change
 
-During my time at McGill I found people are genuinely interested in economics
-— they just need the right entry point. I designed a game to teach economic
+![MIT students taught me that the best learning is always done while laughing](university/cau-cards.jpeg){width="250"
+fig-align="right" style="float: right;"}
+
+During my time at McGill I found people are genuinely interested in economics,
+they just need the right entry point. I designed a game to teach economic
 concepts using economics jokes. As a content contributor, my economics jokes
 also won multiple awards for growing the economics community on Reddit during
 the pandemic.
@@ -57,8 +59,8 @@ of economic literacy and a positive relationship with their economic context.
 
 ## The path here
 
-McGill → AI4Good Lab × Mila → Indigenomics → CAIDP → Université de Montréal.
-The unifying thread is *measurement* — what we count, what we don't, and
+McGill → Indigenomics → AI4Good Lab → Université de Montréal × Mila .
+The unifying thread is *measurement:* what we count, what we don't, and
 who pays when we count badly. My PhD work makes that thread explicit: the
 adoption lag of computational methods is, at heart, a story about whose
 problems get measured well enough to be solved.
@@ -68,3 +70,7 @@ problems get measured well enough to be solved.
   &nbsp;
   <a class="btn" href="{{ '/research/' | relative_url }}">→ Research</a>
 </p>
+
+## As A Person 
+
+![Competitive Figure Skating - The Skating Club of Boston](/assets/img/scob.jpeg)
