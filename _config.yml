@@ -131,7 +131,4 @@ analytics:
   # Change to "https://us.i.posthog.com" if you ever move to US instance.
   posthog_host: "https://eu.i.posthog.com"
 
-theme: null
 
-# Disable any gem-based theme
-theme: ''
