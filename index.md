@@ -9,7 +9,7 @@ permalink: /
   <div class="hero__intro">
     <p class="section__eyebrow">Welcome</p>
     <h1 class="hero__headline">
-      Sophie <em>Strassmann-Peña</em>
+      Sophie <em>Strassmann</em>
     </h1>
     <p class="hero__role">
       Researcher · Mindful Human Capital ·
