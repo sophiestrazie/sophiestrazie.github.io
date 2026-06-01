@@ -26,14 +26,14 @@ I have been in remission for over fifteen years. The diagnosis forced a reckonin
 actually wanted to spend time on. I have been very deliberate about it since.
 
 I hold a B.A. in Economics from McGill University and have been admitted to graduate studies at
-Université de Montréal, where I will work withProf. Jean-François Godbout on the adoption lag 
+Université de Montréal, where I will work with Prof. Jean-François Godbout on the adoption lag 
 of computational methods in economics. I have contributed to the $100B Indigenous Economy AI 
 Study at Indigenomics Institute, which produced an estimate three times higher than Statistics 
 Canada's prior figure for Indigenous contribution to GDP, in part by including non-English
 language sources. I was directly responsible for the repeal of a Canadian federal immigration 
 policy without formal authority or Canadian voting rights, with changes beginning to impact 
-real immigration cases within a month. I have held fellowships at the AI4Good Lab and the 
-Center for AI and Digital Policy (CAIDP).
+real immigration cases within a month. I have held fellowships at the AI4Good Lab and Building 21, as well as the 
+Center for AI and Digital Policy (CAIDP) as a destinguished research member.
 
 ## Languages As Methodology
 
@@ -43,9 +43,9 @@ questions that feel obvious inside one tradition and nonsensical from outside it
 treats only English-language sources as data is not missing a few documents; it is missing
 systematic, observable, patterns.
 
-The Indigenous economy study made this concrete. My recommendations ensured that future versions
-would establish capacity for economic reporting from corpora written in native languages such as
-Inuktitut. The estimate tripled, in part, because we stopped discarding evidence by language.
+The Indigenous economy study made this concrete: My recommendations ensured that future versions
+would establish capacity for economic reporting from corpora in native languages such as
+Inuktitut and datasets tied to the land (GIS data structures). The estimate tripled, in part, because we stopped discarding evidence by language.
 
 ## Breadth
 
@@ -53,10 +53,10 @@ People with genuinely cross-disciplinary training often understate it because ea
 touch makes them feel like an outsider. I have learned to read this feeling as a signal that
 I am working at a boundary worth paying attention to. My background spans economics,
 geomatics, computational linguistics, machine learning, and political methodology. Each of those
-tools was acquired because a problem I cared about required it.
+tools was acquired because a problem I cared about required it: ensuring that I would never be prevented from answering a research question because the methods I was trained in.
 
 The goal is not to be a generalist who knows a little about many things, but to be someone who
-can build bridges between communities that have developed complementary tools in isolation from
+can build bridges between communities that have developed complementary tools which otherwise exist in isolation from
 each other.
 
 ## Service & Mentorship
@@ -77,24 +77,22 @@ as an oddity but as evidence that the communication problem in economics is real
 
 Before research, I trained as a competitive figure skater at the
 [Skating Club of Boston](https://scboston.org/), the third-oldest American skating club,
-founded in 1912, and a founding member of U.S. Figure Skating. The club has trained Olympic
-medalists and national champions for over a century, and placed three skaters on the 2026 U.S.
-Olympic team for the Winter Games in Milan. I was part of the development pipeline that
+established in 1912, and a founding member of U.S. Figure Skating. The club has trained Olympic
+medalists and national champions for over a century, and placed three skaters on the 2026 U.S. team for the Winter Olympics in Milan. I was part of the development pipeline that
 institution is known for.
 
 ![Competitive Figure Skating, The Skating Club of Boston](/assets/img/scob.jpeg)
 
 I have also trained and competed in eight styles of dance, winning awards across multiple
-disciplines. I currently train in military-grade Krav Maga and enjoy a practice of daily
+disciplines. These days I train in military-grade Krav Maga and enjoy a practice of daily
 mindfulness.
 
-The through-line across all of it is the same: internalize a complex structured system until
-execution becomes intuitive, then perform under conditions where errors are immediately visible.
-That is not a different skill from research. It is the same skill applied to a different domain.
+The through-line across all of it is the same: internalize the underlying mechanics of a complex system until the execution becomes intuitive, then perform under conditions where errors are immediately visible.
+That is not a different skill from research; it is the same skill applied to a different domain.
 
 ## The Path
 
-Boston → McGill → Indigenomics → AI4Good Lab → Université de Montréal × Mila .
+Boston → McGill → AI4Good Lab × Indigenomics → Université de Montréal × Mila .
 
 The unifying thread is *measurement*: what we count, what we do not, and who pays when we
 count badly. My doctoral work makes that thread explicit. The adoption lag of computational

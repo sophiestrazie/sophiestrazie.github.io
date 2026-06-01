@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Teaching"
-eyebrow: "Tutoring &amp; holistic mentorship"
-subtitle: "One-on-one support in economics, statistics, and quantitative methods: collaborative, adaptive, and inclusive."
+eyebrow: "Collaborative. Adaptive. Inclusive."
+subtitle: "Holistic Tutoring & Mentorship: One-on-one support in economics, statistics, and quantitative research methods."
 permalink: /teaching/
 ---
 
@@ -15,6 +15,7 @@ sound-boarding between sessions with your supervisor.
 ## Supported Subjects
 
 - R / RStudio
+- Python
 - Statistics
 - Microeconomics
 - Macroeconomics
@@ -56,7 +57,7 @@ calibrated to your course load and goals.
 Education is my top priority and my commitment to professionalism is
 unwavering. 
 
-I believe learning should be engaging, enjoyable, and tailored to
+My job is to adapt how I relate so that your experience of the material and study strategies seamlessly resonate with your way of operating—not the other way around. I believe learning should be engaging, enjoyable, and tailored to
 your needs as a full person. Throughout our time together I will work to ensure you not only
 achieve your academic goals but gain skills and insights that serve you well
 afterwards.
