@@ -20,7 +20,7 @@ sound-boarding between sessions with your supervisor.
 - Microeconomics
 - Macroeconomics
 - Labour Economics
-- Quantitative methods &amp; research design
+- Multimodal Social Science Methods & Quantitative Research Design 
 
 I also act as a sound board for research in adjacent subjects between sessions
 with your formal supervisor. This helps students make stronger impressions,
