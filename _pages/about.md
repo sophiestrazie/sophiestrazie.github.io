@@ -18,7 +18,7 @@ understand *why* it is missing or wrong, and build the better one.
 I grew up between Cambridge and Brookline, Massachusetts, which are adjacent in geography and
 worlds apart in almost everything else. At twelve, I was diagnosed with Stage III Burkitt's
 Lymphoma, one of the most aggressive and fastest-growing cancers. I was lucky to have gone to
-the ER the night before leaving for Girl Scouts sleepaway camp. I was priviledged to be 
+the ER the night before leaving for Girl Scouts sleepaway camp. I was privileged to be 
 treated by a rare cancer specialist at Boston Children's Hospital and Dana-Farber, consistently 
 ranked among the top cancer programs in the country. 
 
@@ -33,15 +33,14 @@ Canada's prior figure for Indigenous contribution to GDP, in part by including n
 language sources. I was directly responsible for the repeal of a Canadian federal immigration 
 policy without formal authority or Canadian voting rights, with changes beginning to impact 
 real immigration cases within a month. I have held fellowships at the AI4Good Lab and Building 21, as well as the 
-Center for AI and Digital Policy (CAIDP) as a destinguished research member.
+Center for AI and Digital Policy (CAIDP) as a distinguished research member.
 
 ## Languages As Methodology
 
 I have a background in six languages: English, French, Spanish, Urdu, Hindi, and Persian/Farsi.
 This is not incidental. Every additional language is an additional epistemic frame, a set of
 questions that feel obvious inside one tradition and nonsensical from outside it. A field that
-treats only English-language sources as data is not missing a few documents; it is missing
-systematic, observable, patterns.
+treats only English-language sources as data is not missing a few documents; it is missing systematic, observable patterns.
 
 The Indigenous economy study made this concrete: My recommendations ensured that future versions
 would establish capacity for economic reporting from corpora in native languages such as
@@ -53,7 +52,7 @@ People with genuinely cross-disciplinary training often understate it because ea
 touch makes them feel like an outsider. I have learned to read this feeling as a signal that
 I am working at a boundary worth paying attention to. My background spans economics,
 geomatics, computational linguistics, machine learning, and political methodology. Each of those
-tools was acquired because a problem I cared about required it: ensuring that I would never be prevented from answering a research question because the methods I was trained in.
+tools was acquired because a problem I cared about required it: ensuring that I would never be prevented from answering a research question because of the limits of the methods I was trained in.
 
 The goal is not to be a generalist who knows a little about many things, but to be someone who
 can build bridges between communities that have developed complementary tools which otherwise exist in isolation from
