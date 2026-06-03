@@ -34,7 +34,7 @@ permalink: /
   <div class="hero__portrait">
     <!-- Drop your portrait at assets/img/portrait.png. Aspect: square. -->
     <img src="{{ '/assets/img/portrait.jpeg' | relative_url }}"
-         alt="Portrait of Sophie Strassmann-Peña"
+         alt="Portrait of Sophie Strassmann"
          onerror="this.style.display='none'">
   </div>
 </section>

@@ -90,7 +90,7 @@ Edit `_data/publications.yml`. Each entry is a YAML block:
 ```yaml
 - year: 2026
   title: "Computational adoption lag in economics: a bibliometric measure"
-  authors: "Strassmann-Peña, S."
+  authors: "Strassmann, S."
   venue: "Working paper"
   type: "Working paper"   # or "Article" | "Preprint" | "Essay" | "Report"
   abstract: "One-sentence summary, optional."
@@ -315,5 +315,5 @@ installed and the GitHub workflow is familiar.
 
 ## License
 
-Content (text, CV, publications): © Sophie Strassmann-Peña.
+Content (text, CV, publications): © Sophie Strassmann.
 Code (templates, SCSS, JS): MIT, do as you like.
