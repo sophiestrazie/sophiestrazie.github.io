@@ -70,7 +70,7 @@ I designed a card game to teach economics through jokes. My economics jokes also
 awards for growing the economics community on Reddit during the pandemic, which I mention not
 as an oddity but as evidence that the communication problem in economics is real and solvable.
 
-![MIT students taught me that the best learning is always done while laughing](/assets/img/cau-cards.jpeg)
+![MIT students taught me that the best learning is always done while laughing](/assets/img/assume-a-can-opener.png)
 
 ## Athletics
 
