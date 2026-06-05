@@ -91,7 +91,7 @@ That is not a different skill from research; it is the same skill applied to a d
 
 ## The Path
 
-Boston → McGill → AI4Good Lab × Indigenomics → Université de Montréal × Mila .
+Boston → McGill × Building 21 → AI4Good Lab × Indigenomics → Université de Montréal × Mila .
 
 The unifying thread is *measurement*: what we count, what we do not, and who pays when we
 count badly. My doctoral work makes that thread explicit. The adoption lag of computational
