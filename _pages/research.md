@@ -35,26 +35,46 @@ frame this as a question of institutional resistance to technological change:
 an essential AI Policy coordination problem concerning how professional communities, incentive
 structures, and disciplinary norms shape meaningful knowledge production.
 
-### Question 1 — What explains variation in computational adoption across disciplines?
+### Core Question
+
+*What explains how innovative research ideas are generated and disseminated within economics, and how does this process depend on researcher human capital and institutional incentives across different stages of an economists' career?*
+
+### Question 1 — What explains variation in computational adoption and diffusion across disciplines?
 
 I'm constructing a bibliometric dataset tracking first-use dates of specific
 techniques (machine learning classifiers, natural language processing, neural
 networks) across disciplinary journals. 
 
-### Question 2 — What mechanisms drive resistance at the individual level?
+### Question 2 — What mechanisms explain variation in adoption at the individual level?
 
 Using primary survey data from academic, government, and private-sector
 researchers, I examine cognitive, institutional, and pedagogical barriers to
-skill acquisition. Pilot collaborations with organizations such as Georgetown 
-University, the Conference Board of Canada, and the US Federal Reserve,
-will inform survey design and provide access to non-academic populations.
+skill acquisition. 
+
+This component focuses on:
+
+- disciplinary training pathways  
+- epistemic norms and evaluation standards  
+- perceived legitimacy of computational approaches  
+- access to computational human capital  
+- career-stage differences in adoption incentives  
+
+Pilot collaborations with organizations such as the US Federal Reserve,
+Georgetown University’s CSET, and the Conference Board of Canada inform survey
+design and extend empirical coverage beyond academia.
 
 ### Question 3 — Can targeted interventions accelerate adoption?
 
-Field experiments testing pedagogical approaches will evaluate existing
-training programs.
+A set of field and quasi-experimental designs evaluates whether specific
+pedagogical and institutional interventions can shift adoption trajectories, including mechanisms that shape perceived reputational risk in adoption. 
 
-## Supervisor &amp; setting
+### Question 4 — How do disciplines define and enforce methodological legitimacy?
+
+Beyond adoption rates, the project examines how disciplinary communities
+construct boundaries around what counts as valid inference, acceptable tools,
+and credible research.
+
+## Supervisor &amp; Setting
 
 Expertise in pedagogy, interdisciplinary collaboration, and computational
 social science.

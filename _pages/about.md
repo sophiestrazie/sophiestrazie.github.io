@@ -87,7 +87,7 @@ disciplines. These days I train in military-grade Krav Maga and enjoy a practice
 mindfulness.
 
 The through-line across all of it is the same: internalize the underlying mechanics of a complex system until the execution becomes intuitive, then perform under conditions where errors are immediately visible.
-That is not a different skill from research; it is the same skill applied to a different domain.
+That is not a different skill from research... it is the same skill applied to a different domain.
 
 ## The Path
 
