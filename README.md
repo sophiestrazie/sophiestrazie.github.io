@@ -1,7 +1,42 @@
-# sophie-strassmann.github.io
+# sophiestrazie.github.io
 
 Personal academic website for Sophie Strassmann-Peña, built with [Jekyll](https://jekyllrb.com/)
 and hosted on GitHub Pages. Ported from the previous Quarto site.
+
+## Updating the Site
+
+This site is built with Jekyll and hosted on GitHub Pages. Content lives in `index.md` (home page), plus `research.md`, `cv.md`, `teaching.md`, and `about.md` for the other pages.
+
+### Standard update workflow (PowerShell)
+
+1. Pull the latest version before making changes, to avoid overwriting anything:
+```powershell
+   cd path\to\sophiestrazie.github.io
+   git pull origin main
+```
+
+2. Open the relevant file in your editor:
+```powershell
+   code index.md
+```
+   (Replace `code` with `notepad` or your preferred editor if VS Code isn't installed.)
+
+3. Edit and save the file locally.
+
+4. Stage, commit, and push the change:
+```powershell
+   git add index.md
+   git commit -m "Describe the change here"
+   git push origin main
+```
+
+5. GitHub Pages rebuilds automatically after the push. Changes are typically live within a few minutes. Check the Actions tab on the repo if a build fails.
+
+### Notes
+
+- Always run `git pull` before editing, especially if updates were made from another device.
+- Commit messages should describe *what* changed and *why*, not just "update site," since this doubles as a paper trail for how the research framing has evolved over time.
+- If editing multiple files in one session (e.g., bio + CV + research statement together), stage them all before one commit rather than committing file by file, unless the changes are conceptually separate.
 
 ## Quick start
 

@@ -4,6 +4,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   {%- seo -%}
+
+  <!-- Person schema: tells Google that your LinkedIn, ORCID, GitHub,
+       etc. are all the same person, so search results consolidate
+       instead of splitting across separate profiles. The list of
+       links below is built from _config.yml automatically, add an
+       ORCID or GitHub there later and it will appear here without
+       touching this file again. Instagram stays out on purpose,
+       that account is craft/travel-facing. -->
+  {%- capture same_as_json -%}
+    ["https://www.linkedin.com/in/{{ site.author.linkedin }}/"{% if site.author.orcid and site.author.orcid != "" %}, "https://orcid.org/{{ site.author.orcid }}"{% endif %}{% if site.author.github and site.author.github != "" %}, "https://github.com/{{ site.author.github }}"{% endif %}]
+  {%- endcapture -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sophie Strassmann",
+    "url": "{{ site.url }}{{ site.baseurl }}",
+    "image": "{{ site.url }}{{ '/assets/img/portrait.jpeg' | relative_url }}",
+    "jobTitle": "Researcher",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Mindful Human Capital"
+    },
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "McGill University"
+      }
+    ],
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "Université de Montréal"
+    },
+    "knowsAbout": [
+      "AI adoption in economics",
+      "human capital economics",
+      "labor economics",
+      "computational social science",
+      "political economy of technology",
+      "methodological diffusion",
+      "econometrics"
+    ],
+    "sameAs": {{ same_as_json }}
+  }
+  </script>
+
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
 
@@ -23,7 +69,7 @@
         if (stored === 'dark' || stored === 'light') {
           document.documentElement.setAttribute('data-theme', stored);
         }
-      } catch (e) { /* localStorage blocked — fall through to prefers-color-scheme */ }
+      } catch (e) { /* localStorage blocked, fall through to prefers-color-scheme */ }
     })();
   </script>
 </head>
