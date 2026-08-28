@@ -1,7 +1,7 @@
 ---
 layout: home
-title: "S.E. Strassmann"
-description: "Interdisciplinary researcher in human capital economics and computational social science."
+title: "Sophie Strassmann | AI, Labor Economics & Human Capital Research"
+description: "Sophie Strassmann studies human economic value, bargaining power, and labor policy in an economy where AI performs productive tasks."
 permalink: /
 ---
 
@@ -16,11 +16,7 @@ permalink: /
       Incoming Graduate Student, Political Economy, Université de Montréal
     </p>
     <p class="hero__lede">
-      I study how knowledge-producing institutions adopt, or fail to adopt,
-      computational methods. My work sits at the intersection of human-capital
-      economics, computational social science, and the political economy of
-      methodological change, with applied threads in creative economic
-      measurement and algorithmic fairness in employment systems.
+      I study what determines the economic role, bargaining power, and income of human labor in an economy where machines can perform an increasing share, and potentially all, economically productive tasks. My work sits at the intersection of human-capital economics, labor economics, and the political economy of technological transition, asking what remains scarce, who holds power, and what public policy can and should do, once intelligence itself is no longer a limiting factor of production.
     </p>
 
     <div class="hero__contacts">
@@ -34,7 +30,7 @@ permalink: /
   <div class="hero__portrait">
     <!-- Drop your portrait at assets/img/portrait.png. Aspect: square. -->
     <img src="{{ '/assets/img/portrait.jpeg' | relative_url }}"
-         alt="Portrait of Sophie Strassmann"
+         alt="Sophie Strassmann, AI and labor economics researcher"
          onerror="this.style.display='none'">
   </div>
 </section>
@@ -44,21 +40,28 @@ permalink: /
      =================================================================== -->
 <section class="section">
   <p class="section__eyebrow">Current Research</p>
-  <h2 class="section__title">The adoption lag of computational methods in economics</h2>
+  <h2 class="section__title">What determines human economic value when intelligence is no longer scarce?</h2>
 
   <p style="font-size: var(--fs-md); max-width: 65ch;">
-    Diffusion of innovations theory predicts that methods offering clear productivity
-    advantages spread quickly through professional communities. Computational methods —
-    machine learning, NLP, neural networks — have done so in many fields, but remain
-    marginal in economics. <em>Why?</em>
+    For as long as economics has modeled production, human cognitive labor has been
+    treated as a scarce, bargaining-relevant input. Artificial intelligence is now
+    testing that assumption directly. If machines can eventually perform any
+    economically productive task at or above human capability, the question stops
+    being how AI changes specific jobs, and becomes something more fundamental:
+    <em>what determines the continued economic role, bargaining power, and income
+    of human beings at all, and what public policy is equipped, or unequipped,
+    to do about it.</em>
   </p>
 
   <p style="max-width: 65ch;">
-    My dissertation treats this as a problem of institutional resistance to technical
-    change. I'm building a bibliometric dataset that measures, for the first time,
-    the lag between when a method appears in computer science and when it appears in
-    social-science publications, paired with primary survey work on the cognitive,
-    institutional, and pedagogical barriers to adoption.
+    My dissertation takes this as its central question. I approach it from the
+    ground up: what are the fundamental factors of production in an economy where
+    intelligence is not scarce, what remains genuinely scarce when machine cognition
+    can substitute for human judgment across an expanding range of tasks, and where,
+    if anywhere, a discoverable threshold exists between AI as complement and AI as
+    substitute. The aim is not to describe a trend already underway, but to identify
+    the mechanism, and the policy lever, that determines which side of that threshold
+    a given task, worker, or institution ends up on.
   </p>
 
   <p>
