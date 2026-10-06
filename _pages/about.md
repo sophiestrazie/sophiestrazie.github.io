@@ -3,6 +3,11 @@ layout: page
 title: "About"
 eyebrow: "Who am I?"
 subtitle: "Researcher, polymath, cancer survivor, and competitive athlete."
+description: >-
+  Sophie Strassmann on the throughline across human capital economics,
+  Indigenous economic measurement, and the political economy of
+  methodological change, from a McGill economics degree to graduate
+  research at Université de Montréal under Prof. Jean-François Godbout.
 permalink: /about/
 ---
 
@@ -18,21 +23,22 @@ understand *why* it is missing or wrong, and build the better one.
 I grew up between Cambridge and Brookline, Massachusetts, which are adjacent in geography and
 worlds apart in almost everything else. At twelve, I was diagnosed with Stage III Burkitt's
 Lymphoma, one of the most aggressive and fastest-growing cancers. I was lucky to have gone to
-the ER the night before leaving for Girl Scouts sleepaway camp. I was privileged to be 
-treated by a rare cancer specialist at Boston Children's Hospital and Dana-Farber, consistently 
-ranked among the top cancer programs in the country. 
+the ER the night before leaving for Girl Scouts sleepaway camp. I was privileged to be
+treated by a rare cancer specialist at Boston Children's Hospital and Dana-Farber, consistently
+ranked among the top cancer programs in the country.
 
-I have been in remission for over fifteen years. The diagnosis forced a reckoning with what I 
+I have been in remission for over fifteen years. The diagnosis forced a reckoning with what I
 actually wanted to spend time on. I have been very deliberate about it since.
 
 I hold a B.A. in Economics from McGill University and have been admitted to graduate studies at
-Université de Montréal, where I will work with Prof. Jean-François Godbout on the adoption lag 
-of computational methods in economics. I have contributed to the $100B Indigenous Economy AI 
-Study at Indigenomics Institute, which produced an estimate three times higher than Statistics 
+Université de Montréal, where I will work with Prof. Jean-François Godbout on the adoption lag
+of computational methods in economics. I have contributed to the $100B Indigenous Economy AI
+Study at Indigenomics Institute, which produced an estimate three times higher than Statistics
 Canada's prior figure for Indigenous contribution to GDP, in part by including non-English
-language sources. I was directly responsible for the repeal of a Canadian federal immigration 
-policy without formal authority or Canadian voting rights, with changes beginning to impact 
-real immigration cases within a month. I have held fellowships at the AI4Good Lab and Building 21, as well as the 
+language sources. In 2025, my research and advocacy contributed to the repeal of Canada's
+medical inadmissibility provisions under the Charter of Rights and Freedoms, without formal
+authority or Canadian voting rights, with the change affecting real immigration cases within a
+month. I have held fellowships at the AI4Good Lab and Building 21, as well as the
 Center for AI and Digital Policy (CAIDP) as a distinguished research member.
 
 ## Languages As Methodology
@@ -70,7 +76,14 @@ I designed a card game to teach economics through jokes. My economics jokes also
 awards for growing the economics community on Reddit during the pandemic, which I mention not
 as an oddity but as evidence that the communication problem in economics is real and solvable.
 
-![MIT students taught me that the best learning is always done while laughing](/assets/img/assume-a-can-opener.png)
+<video controls muted playsinline preload="metadata"
+       poster="{{ '/assets/img/hq-announcement-video-preview-inline.png' | relative_url }}"
+       aria-label="Announcement clip for Assume a Can Opener, an economics card game"
+       style="width: 100%; height: auto; border-radius: var(--radius, 4px);">
+  <source src="{{ '/assets/video/a2co-hq-brand-announcement.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support embedded video.
+  <a href="{{ '/assets/video/a2co-hq-brand-announcement.mp4' | relative_url }}">Download the clip instead.</a>
+</video>
 
 ## Athletics
 
@@ -87,11 +100,11 @@ disciplines. These days I train in military-grade Krav Maga and enjoy a practice
 mindfulness.
 
 The through-line across all of it is the same: internalize the underlying mechanics of a complex system until the execution becomes intuitive, then perform under conditions where errors are immediately visible.
-That is not a different skill from research... it is the same skill applied to a different domain.
+That is not a different skill from research, it is the same skill applied to a different domain.
 
 ## The Path
 
-Boston → McGill × Building 21 → AI4Good Lab × Indigenomics → Université de Montréal × Mila .
+Boston → McGill × Building 21 → AI4Good Lab × Indigenomics → Université de Montréal × Mila.
 
 The unifying thread is *measurement*: what we count, what we do not, and who pays when we
 count badly. My doctoral work makes that thread explicit. The adoption lag of computational
@@ -103,4 +116,3 @@ enough to be solved, and what it takes to change that.
   &nbsp;
   <a class="btn" href="{{ '/research/' | relative_url }}">Research</a>
 </p>
-
