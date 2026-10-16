@@ -3,6 +3,8 @@ layout: page
 title: "Research"
 eyebrow: "Research agenda &amp; publications"
 subtitle: "Human capital quality in knowledge work, with a focus on computational skills among economists and other social scientists."
+# Replaces the auto-grabbed text "The Puzzle".
+description: "Research by Sophie Strassmann on human capital, labor economics and AI, including working papers on linguistic diversity and research methodology."
 permalink: /research/
 ---
 

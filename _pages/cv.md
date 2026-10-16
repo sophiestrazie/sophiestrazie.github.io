@@ -3,6 +3,8 @@ layout: page
 title: "CV"
 eyebrow: "Curriculum vitae"
 subtitle: "Updated summary. Download the full PDF below."
+# Replaces the auto-grabbed text "Download CV (PDF)" that was showing in search results.
+description: "Curriculum vitae of Sophie Strassmann: McGill economics, graduate research at Université de Montréal, and work on AI and human capital."
 permalink: /cv/
 ---
 

@@ -3,11 +3,8 @@ layout: page
 title: "About"
 eyebrow: "Who am I?"
 subtitle: "Researcher, polymath, cancer survivor, and competitive athlete."
-description: >-
-  Sophie Strassmann on the throughline across human capital economics,
-  Indigenous economic measurement, and the political economy of
-  methodological change, from a McGill economics degree to graduate
-  research at Université de Montréal under Prof. Jean-François Godbout.
+# Shortened from 266 characters, which Google would cut off.
+description: "Sophie Strassmann: McGill economics graduate working on human capital, Indigenous economic measurement and graduate research at Université de Montréal."
 permalink: /about/
 ---
 

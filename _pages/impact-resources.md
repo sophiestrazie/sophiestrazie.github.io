@@ -3,6 +3,8 @@ layout: page
 title: "Impact Resources"
 eyebrow: "Civic engagement"
 subtitle: "Where to send feedback on policy that affects you, organized by country."
+# This page had no description, so a 256-character excerpt was used.
+description: "Where to send policy feedback by country: official public comment channels and starting templates for the issues Sophie Strassmann follows."
 permalink: /impact-resources/
 ---
 

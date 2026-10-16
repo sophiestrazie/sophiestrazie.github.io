@@ -3,6 +3,8 @@ layout: page
 title: "Privacy"
 eyebrow: "What this site collects"
 subtitle: "Short version — nothing until you say yes, and not much even then."
+# Replaces the auto-grabbed text "What gets collected".
+description: "What this site collects: nothing until you accept analytics, and limited data after."
 permalink: /privacy/
 ---
 

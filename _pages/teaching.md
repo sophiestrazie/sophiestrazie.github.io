@@ -3,6 +3,8 @@ layout: page
 title: "Teaching"
 eyebrow: "Collaborative. Adaptive. Inclusive."
 subtitle: "Holistic Tutoring & Mentorship: One-on-one support in economics, statistics, and quantitative research methods."
+# This page had no description, so a 348-character excerpt was used.
+description: "One-on-one tutoring and mentorship in economics, statistics and quantitative methods from a McGill economics graduate, high school through graduate level."
 permalink: /teaching/
 ---
 
