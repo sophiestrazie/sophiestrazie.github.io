@@ -103,8 +103,8 @@ social science.
 
   <ul>
     <li><strong>Université de Montréal</strong> — incoming graduate studies </li>
-    <li><strong>Mila — Quebec Artificial Intelligence Institute</strong> — AI4Good Lab Fellow × Mila ELab (2025)</li>
-    <li><strong>Indigenomics Institute &amp; Global Centre for Indigenomics</strong> — Data Specialist &amp; Executive Support (2024–2025)</li>
+    <li><strong><a href="https://mila.quebec/en" rel="noopener">Mila</a> — Quebec Artificial Intelligence Institute</strong> — AI4Good Lab Fellow × Mila ELab (2025)</li>
+    <li><strong><a href="https://indigenomics.com/" rel="noopener">Indigenomics Institute</a> &amp; Global Centre for Indigenomics</strong> — Data Specialist &amp; Executive Support (2024–2025)</li>
     <li><strong>Center for AI and Digital Policy (CAIDP)</strong> — Distinguished Research Member (2025)</li>
     <li><strong>McGill University</strong> — B.A. Economics, Islamic Studies Minor - Urdu (2023)</li>
   </ul>

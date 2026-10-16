@@ -37,7 +37,7 @@ Distinction, 2025); Studio V1 (Scientific Entrepreneurship, 2025).
 
 ## Selected experience
 
-### AI4Good Lab × Mila ELab Fellow — *Mila, Quebec AI Institute*
+### AI4Good Lab × [Mila](https://mila.quebec/en) ELab Fellow — *Mila, Quebec AI Institute*
 **May 2025 – Nov 2025.**
 Founder of Mindful Human Capital, addressing methodology gaps in economics
 training. Led an interdisciplinary team developing a foundational model of the
@@ -46,9 +46,9 @@ and RNNs on audio, text, and video. Formal training in mathematical
 foundations, supervised &amp; unsupervised learning, CNNs, RNNs, transformers,
 and reinforcement learning from senior engineers at Mila and Google DeepMind.
 
-### Data Specialist &amp; Executive Support — *Indigenomics Institute &amp; Global Centre for Indigenomics*
+### Data Specialist &amp; Executive Support — *[Indigenomics Institute](https://indigenomics.com/) &amp; Global Centre for Indigenomics*
 **Sep 2024 – May 2025.**
-Core technical contributor to the $100B Indigenous Economy AI Study,  the
+Core technical contributor to the [$100B Indigenous Economy AI Study](https://www.businesswire.com/news/home/20240930746364/en/The-Indigenomics-Institute-Set-to-Release-Inaugural-100-Billion-Dollar-Indigenous-Economic-AI-Generative-Study-at-2nd-Annual-Indigenomics-on-BAY-STREET-Forum) ([CBC on the $100B goal](https://www.cbc.ca/news/business/first-nations-indigenous-economics-canada-1.7039906)),  the
 first economic study by Indigenous peoples in Canada. Reporting to Carol Anne
 Hilton and AI Advisory Chair K Krasnow Waterman, introduced innovative data
 sovereignty frameworks. Methodological contributions allowed the study to ship

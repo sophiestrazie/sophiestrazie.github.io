@@ -19,8 +19,7 @@ understand *why* it is missing or wrong, and build the better one.
 
 I grew up between Cambridge and Brookline, Massachusetts, which are adjacent in geography and
 worlds apart in almost everything else. At twelve, I was diagnosed with Stage III Burkitt's
-Lymphoma, one of the most aggressive and fastest-growing cancers. I was lucky to have gone to
-the ER the night before leaving for Girl Scouts sleepaway camp. I was privileged to be
+Lymphoma, one of the most aggressive and fastest-growing cancers. I was privileged to be
 treated by a rare cancer specialist at Boston Children's Hospital and Dana-Farber, consistently
 ranked among the top cancer programs in the country.
 
@@ -28,15 +27,14 @@ I have been in remission for over fifteen years. The diagnosis forced a reckonin
 actually wanted to spend time on. I have been very deliberate about it since.
 
 I hold a B.A. in Economics from McGill University and have been admitted to graduate studies at
-Université de Montréal, where I will work with Prof. Jean-François Godbout on the adoption lag
-of computational methods in economics. I have contributed to the $100B Indigenous Economy AI
-Study at Indigenomics Institute, which produced an estimate three times higher than Statistics
+Université de Montréal, where I will work with [Prof. Jean-François Godbout](https://mila.quebec/en/directory/jean-francois-godbout) on the future of work. I have contributed to the [$100B Indigenous Economy AI
+Study](https://www.businesswire.com/news/home/20240930746364/en/The-Indigenomics-Institute-Set-to-Release-Inaugural-100-Billion-Dollar-Indigenous-Economic-AI-Generative-Study-at-2nd-Annual-Indigenomics-on-BAY-STREET-Forum) ([CBC on the $100B goal](https://www.cbc.ca/news/business/first-nations-indigenous-economics-canada-1.7039906)) at [Indigenomics Institute](https://indigenomics.com/), which produced an estimate three times higher than Statistics
 Canada's prior figure for Indigenous contribution to GDP, in part by including non-English
 language sources. In 2025, my research and advocacy contributed to the repeal of Canada's
 medical inadmissibility provisions under the Charter of Rights and Freedoms, without formal
 authority or Canadian voting rights, with the change affecting real immigration cases within a
-month. I have held fellowships at the AI4Good Lab and Building 21, as well as the
-Center for AI and Digital Policy (CAIDP) as a distinguished research member.
+month. I have held fellowships at the AI4Good Lab and [Building 21](https://www.building21.ca/), as well as the
+[Center for AI and Digital Policy (CAIDP)](https://www.caidp.org/) as a distinguished research member.
 
 ## Languages As Methodology
 
@@ -63,15 +61,11 @@ each other.
 
 ## Service & Mentorship
 
-I volunteered as a multilingual mental-health respondent at 7 Cups during the pandemic,
-maintaining a five-star rating across languages. I have coached researchers at McGill's
-Building 21, helping them translate between their intuitions and the methodological vocabulary
-of their field. I served as an economics content moderator on Facebook, countering disinformation
-in one of the largest economics communities on the platform.
+I volunteered as a multilingual mental-health respondent at [7 Cups](https://www.7cups.com/) during the pandemic, maintaining a five-star rating across languages. As an undergraduate I was hired at McGill's Building 21 to coach researchers at all levels, helping them translate between their intuitions and the methodological vocabulary of their field. I served as an economics content moderator on Facebook, countering disinformation in one of the largest economics communities on the platform.
 
 I designed a card game to teach economics through jokes. My economics jokes also won multiple
 awards for growing the economics community on Reddit during the pandemic, which I mention not
-as an oddity but as evidence that the communication problem in economics is real and solvable.
+as an oddity but as evidence that the communication problem in economics is real and solvable. Today Assume a Can Opener by [Best Response Studios](https://bestresponsestudios.github.io/) maintains a [serious public following on LinkedIn](https://www.linkedin.com/company/assume-a-can-opener/) that includes senior faculty from some of the top twenty economics departments in the world.
 
 <video controls muted playsinline preload="metadata"
        poster="{{ '/assets/img/hq-announcement-video-preview-inline.png' | relative_url }}"
@@ -84,11 +78,7 @@ as an oddity but as evidence that the communication problem in economics is real
 
 ## Athletics
 
-Before research, I trained as a competitive figure skater at the
-[Skating Club of Boston](https://scboston.org/), the third-oldest American skating club,
-established in 1912, and a founding member of U.S. Figure Skating. The club has trained Olympic
-medalists and national champions for over a century, and placed three skaters on the 2026 U.S. team for the Winter Olympics in Milan. I was part of the development pipeline that
-institution is known for.
+Before research, I trained as a competitive figure skater at the [Skating Club of Boston (SCOB)](https://scboston.org/). Established in 1912 SCOB was a founding member of U.S. Figure Skating. The club is a recognized pipeline to the US Olympic team, having trained Olympic medalists and national champions for over a century.
 
 ![Competitive Figure Skating, The Skating Club of Boston](/assets/img/scob.jpeg)
 
@@ -101,7 +91,7 @@ That is not a different skill from research, it is the same skill applied to a d
 
 ## The Path
 
-Boston → McGill × Building 21 → AI4Good Lab × Indigenomics → Université de Montréal × Mila.
+Boston → McGill × Building 21 → AI4Good Lab × Indigenomics → Université de Montréal × [Mila](https://mila.quebec/en).
 
 The unifying thread is *measurement*: what we count, what we do not, and who pays when we
 count badly. My doctoral work makes that thread explicit. The adoption lag of computational
