@@ -18,6 +18,7 @@ author:
 # Replace with your real GitHub Pages URL after deploying.
 url: "https://sophiestrazie.github.io"
 baseurl: "" # leave empty if deploying to <username>.github.io; set to "/repo-name" otherwise
+image: /assets/img/portrait.jpeg # Default social preview image. jekyll-seo-tag turns this into og:image and twitter:image on every page.
 
 # =========================================================================
 # Build / GitHub Pages compatibility

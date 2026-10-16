@@ -1,4 +1,30 @@
+# Search engines and everyone else: full access to the whole site.
+# This keeps /impact-resources/ crawlable, so its page title and meta description
+# can still appear in search results.
 User-agent: *
 Allow: /
 
-Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap.xml
+# Known AI training and AI scraping crawlers: blocked from the Impact Resources page only.
+# They can still read the rest of the site, including the nav link and sitemap entry
+# that show the page exists. Compliant bots will not fetch the page content itself.
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: anthropic-ai
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Meta-ExternalAgent
+User-agent: Bytespider
+User-agent: Amazonbot
+User-agent: cohere-ai
+User-agent: Diffbot
+Disallow: /impact-resources
+
+# Hardcoded on purpose. This file has no Jekyll front matter, so {{ site.url }} would never be filled in.
+Sitemap: https://sophiestrazie.github.io/sitemap.xml
