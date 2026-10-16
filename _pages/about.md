@@ -2,69 +2,34 @@
 layout: page
 title: "About"
 eyebrow: "Who am I?"
-subtitle: "Researcher, polymath, cancer survivor, and competitive athlete."
-# Shortened from 266 characters, which Google would cut off.
-description: "Sophie Strassmann: McGill economics graduate working on human capital, Indigenous economic measurement and graduate research at Université de Montréal."
+subtitle: "Researcher, cancer survivor, and competitive athlete."
+description: "Sophie Strassmann: McGill economics graduate working on human capital, economic measurement and graduate research at the University of Montreal."
 permalink: /about/
 ---
 
-I am a polymath in the original sense: someone whose most useful capability is the ability to
-move between paradigms without losing rigor. My work addresses measurement gaps in human capital
-economics: what institutions count, what they miss, and who bears the cost of the difference.
+My work addresses measurement gaps in human capital economics: what institutions count, what they miss, and who bears the cost of the difference. That question has taken me from the economics of language and immigration to Indigenous economic valuation to the political economy of methodological change. The method is consistent: locate the measurement that is missing or wrong, understand why, and build the better one.
 
-That question has taken me from the economics of language and immigration to Indigenous economic
-valuation to the political economy of methodological change in social science disciplines.
-Across all of it, the method is the same: find the measurement that is either missing or wrong,
-understand *why* it is missing or wrong, and build the better one.
+I grew up between Cambridge and Brookline, Massachusetts, communities I experienced as adjacent in geography and worlds apart in almost everything else. 
 
-I grew up between Cambridge and Brookline, Massachusetts, which are adjacent in geography and
-worlds apart in almost everything else. At twelve, I was diagnosed with Stage III Burkitt's
-Lymphoma, one of the most aggressive and fastest-growing cancers. I was privileged to be
-treated by a rare cancer specialist at Boston Children's Hospital and Dana-Farber, [consistently
-ranked among the top cancer programs in the country](https://www.childrenshospital.org/newsroom/media-archive/boston-childrens-hospital-named-2025-26-best-childrens-hospitals-honor-roll).
+At twelve I was diagnosed with Stage III Burkitt’s lymphoma, one of the faster-growing cancers and one that requires aggressive chemotherapy protocols. I was treated by a specialist team for rare cancers at Boston Children’s Hospital and Dana-Farber, institutions consistently ranked among the top cancer programs in the country. I have been in remission for more than fifteen years. The diagnosis, and the sustained contact with research scientists that came with it, forced an early reckoning with how I wanted to spend time. I have been deliberate about it since.
 
-I have been in remission for over fifteen years. The diagnosis combined with the positive experience I had with scientists at an early age forced a reckoning with what I actually wanted to spend time on. I have been very deliberate about it since.
+I hold a B.A. in Economics from McGill University and have been admitted to graduate studies at Université de Montréal, where I will work with Jean-François Godbout on the future of work. I contributed to the Indigenomics Institute’s $100B Indigenous Economy AI Study, which produced an estimate three times higher than Statistics Canada’s prior figure for Indigenous contribution to GDP, in part by incorporating non-English language sources. In 2025 my research and advocacy contributed to the repeal of Canada’s medical inadmissibility provisions under the Charter of Rights and Freedoms; the change began affecting real immigration cases within a month. I have held fellowships at the AI4Good Lab and Building 21, and served as a distinguished research member at the Center for AI and Digital Policy.
 
-I hold a B.A. in Economics from McGill University and have been admitted to graduate studies at
-Université de Montréal, where I will work with [Prof. Jean-François Godbout](https://mila.quebec/en/directory/jean-francois-godbout) on the future of work. I have contributed to the [$100B Indigenous Economy AI
-Study](https://www.businesswire.com/news/home/20240930746364/en/The-Indigenomics-Institute-Set-to-Release-Inaugural-100-Billion-Dollar-Indigenous-Economic-AI-Generative-Study-at-2nd-Annual-Indigenomics-on-BAY-STREET-Forum) ([CBC on the $100B goal](https://www.cbc.ca/news/business/first-nations-indigenous-economics-canada-1.7039906)) at [Indigenomics Institute](https://indigenomics.com/), which produced an estimate three times higher than Statistics
-Canada's prior figure for Indigenous contribution to GDP, in part by including non-English
-language sources. In 2025, my research and advocacy contributed to the repeal of Canada's
-medical inadmissibility provisions under the Charter of Rights and Freedoms, without formal
-authority or Canadian voting rights, with the change affecting real immigration cases within a
-month. I have held fellowships at the AI4Good Lab and [Building 21](https://www.building21.ca/), as well as the
-[Center for AI and Digital Policy (CAIDP)](https://www.caidp.org/) as a distinguished research member.
+## Languages as Methodology
 
-## Languages As Methodology
+I have a background in six languages: English, French, Spanish, Urdu, Hindi, and Persian. Each is an additional epistemic frame, a set of questions that feel obvious inside one tradition and nonsensical from outside it. A field that treats only English-language sources as data is not missing a few documents; it is missing systematic, observable patterns.
 
-I have a background in six languages: English, French, Spanish, Urdu, Hindi, and Persian/Farsi.
-This is not incidental. Every additional language is an additional epistemic frame, a set of
-questions that feel obvious inside one tradition and nonsensical from outside it. A field that
-treats only English-language sources as data is not missing a few documents; it is missing systematic, observable patterns.
-
-The Indigenous economy study made this concrete: My recommendations ensured that future versions
-would establish capacity for economic reporting from corpora in native languages such as
-Inuktitut and datasets tied to the land (GIS data structures). The estimate tripled, in part, because we stopped discarding evidence by language.
+In the Indigenous economy study my recommendations ensured that future versions would build capacity for economic reporting from corpora in native languages such as Inuktitut and from land-linked GIS structures. The estimate tripled in part because evidence stopped being discarded by language.
 
 ## Breadth
 
-People with genuinely cross-disciplinary training often understate it because each field they
-touch makes them feel like an outsider. I have learned to read this feeling as a signal that
-I am working at a boundary worth paying attention to. My background spans economics,
-geomatics, computational linguistics, machine learning, and political methodology. Each of those
-tools was acquired because a problem I cared about required it: ensuring that I would never be prevented from answering a research question because of the limits of the methods I was trained in.
-
-The goal is not to be a generalist who knows a little about many things, but to be someone who
-can build bridges between communities that have developed complementary tools which otherwise exist in isolation from
-each other.
+My background spans economics, geomatics, computational linguistics, machine learning, and political methodology. Each tool was acquired because a problem required it. The aim is to move between communities that have developed complementary tools in isolation, without losing rigor at the boundary.
 
 ## Service & Mentorship
 
-I volunteered as a multilingual mental-health respondent at [7 Cups](https://www.7cups.com/) during the pandemic, maintaining a five-star rating across languages. As an undergraduate I was hired at McGill's Building 21 to coach researchers at all levels, helping them translate between their intuitions and the methodological vocabulary of their field. I served as an economics content moderator on Facebook, countering disinformation in one of the largest economics communities on the platform.
+I volunteered as a multilingual mental-health respondent at 7 Cups during the pandemic, maintaining a five-star rating across languages. At McGill’s Building 21 I coached researchers on translating intuition into the methodological vocabulary of their fields. I moderated economics content on Facebook, countering disinformation in one of the largest economics communities on the platform.
 
-I designed a card game to teach economics through jokes. My economics jokes also won multiple
-awards for growing the economics community on Reddit during the pandemic, which I mention not
-as an oddity but as evidence that the communication problem in economics is real and solvable. Today Assume a Can Opener by [Best Response Studios](https://bestresponsestudios.github.io/) maintains a [serious public following on LinkedIn](https://www.linkedin.com/company/assume-a-can-opener/) that includes senior faculty from some of the top twenty economics departments in the world.
+I designed a card game that teaches economics through jokes. The jokes also won multiple awards for growing the economics community on Reddit during the pandemic. *Assume a Can Opener*, produced by Best Response Studios, now maintains a public following on LinkedIn that includes senior faculty from some of the top twenty economics departments.
 
 <video controls muted playsinline preload="metadata"
        poster="{{ '/assets/img/hq-announcement-video-preview-inline.png' | relative_url }}"
@@ -75,30 +40,39 @@ as an oddity but as evidence that the communication problem in economics is real
   <a href="{{ '/assets/video/a2co-hq-brand-announcement.mp4' | relative_url }}">Download the clip instead.</a>
 </video>
 
-## Athletics
+## Artistic & Athletic
 
-Before research, I trained as a competitive figure skater at the [Skating Club of Boston (SCOB)](https://scboston.org/). Established in 1912 SCOB was a founding member of U.S. Figure Skating. The club is a recognized pipeline to the US Olympic team, having trained Olympic medalists and national champions for over a century.
+Before research I trained as a competitive figure skater at the Skating Club of Boston. Established in 1912, SCOB was a founding member of U.S. Figure Skating and remains a recognized pipeline to the U.S. Olympic team, having trained Olympic medalists and national champions for more than a century.
 
 ![Competitive Figure Skating, The Skating Club of Boston](/assets/img/scob.jpeg)
 
-I have also trained and competed in eight styles of dance, winning awards across multiple
-disciplines. These days I train in military-grade Krav Maga and enjoy a practice of daily
-mindfulness.
+I trained and competed in eight styles of dance, winning awards across multiple disciplines. I now train in military-grade Krav Maga and maintain a daily mindfulness practice.
 
-The through-line across all of it is the same: internalize the underlying mechanics of a complex system until the execution becomes intuitive, then perform under conditions where errors are immediately visible.
-That is not a different skill from research, it is the same skill applied to a different domain.
+<div style="display: flex; gap: 1.5rem; margin: 1.5rem 0;">
+  <img src="/assets/img/statement-ring-silver.jpeg" 
+       alt="Radiant-cut diamond ring in silver, made during professional jewelry apprenticeship" 
+       style="width: 50%; height: auto; object-fit: cover; border-radius: 4px;">
+  <img src="/assets/img/tagua-natural.jpeg" 
+       alt="Silver pendant with natural tagua nut, made during professional jewelry apprenticeship" 
+       style="width: 50%; height: auto; object-fit: cover; border-radius: 4px;">
+</div>
+<p style="font-size: 0.85em; color: var(--color-muted); margin-top: -0.5rem; margin-bottom: 1.5rem;">
+  Sample jewelrymaking portfolio: statement ring and natural tagua, "plant ivory", pendant in sterling silver.
+</p>
+
+I also completed a professional apprenticeship in jewelry making with a working jeweler who produces custom pieces and wedding rings. The craft demands the same qualities as the rest of this list: precision under irreversible constraints, iterative correction, and the ability to hold a complete three-dimensional structure in mind while executing each step.
+
 
 ## The Path
 
-Boston → McGill × Building 21 → AI4Good Lab × Indigenomics → Université de Montréal × [Mila](https://mila.quebec/en).
+Boston → McGill × Building 21 → AI4Good Lab × Indigenomics → Université de Montréal × Mila.
 
-The unifying thread is *measurement*: what we count, what we do not, and who pays when we
-count badly. My doctoral work makes that thread explicit. The adoption lag of computational
-methods in economics is, at heart, a story about whose problems get measured rigorously
-enough to be solved, and what it takes to change that.
+The through-line is the same: internalize the mechanics of a complex system until execution becomes intuitive, then perform under conditions where error is immediately visible. That is not a different skill from research; it is the same skill applied to a different domain.
 
 <p style="margin-top: var(--sp-6);">
   <a class="btn" href="{{ '/cv/' | relative_url }}">Full CV</a>
   &nbsp;
   <a class="btn" href="{{ '/research/' | relative_url }}">Research</a>
+  &nbsp;
+  <a class="btn" href="https://www.instagram.com/sophiestrazie/" rel="noopener" target="_blank">Archived portfolio (Instagram)</a>
 </p>
