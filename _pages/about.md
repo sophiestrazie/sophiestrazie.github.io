@@ -20,11 +20,10 @@ understand *why* it is missing or wrong, and build the better one.
 I grew up between Cambridge and Brookline, Massachusetts, which are adjacent in geography and
 worlds apart in almost everything else. At twelve, I was diagnosed with Stage III Burkitt's
 Lymphoma, one of the most aggressive and fastest-growing cancers. I was privileged to be
-treated by a rare cancer specialist at Boston Children's Hospital and Dana-Farber, consistently
-ranked among the top cancer programs in the country.
+treated by a rare cancer specialist at Boston Children's Hospital and Dana-Farber, [consistently
+ranked among the top cancer programs in the country](https://www.childrenshospital.org/newsroom/media-archive/boston-childrens-hospital-named-2025-26-best-childrens-hospitals-honor-roll).
 
-I have been in remission for over fifteen years. The diagnosis forced a reckoning with what I
-actually wanted to spend time on. I have been very deliberate about it since.
+I have been in remission for over fifteen years. The diagnosis combined with the positive experience I had with scientists at an early age forced a reckoning with what I actually wanted to spend time on. I have been very deliberate about it since.
 
 I hold a B.A. in Economics from McGill University and have been admitted to graduate studies at
 Université de Montréal, where I will work with [Prof. Jean-François Godbout](https://mila.quebec/en/directory/jean-francois-godbout) on the future of work. I have contributed to the [$100B Indigenous Economy AI
