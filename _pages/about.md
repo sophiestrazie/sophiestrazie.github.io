@@ -7,7 +7,7 @@ description: "Sophie Strassmann: McGill economics graduate working on human capi
 permalink: /about/
 ---
 
-I grew up between Cambridge and Brookline, Massachusetts—adjacent in geography, distant in almost everything else. 
+I grew up between Cambridge and Brookline, Massachusetts, adjacent in geography, distant in almost everything else. 
 
 At the age of twelve I was diagnosed with Stage III Burkitt’s lymphoma, one of the faster-growing cancers requiring aggressive chemotherapy protocols. I was treated by a care team specializing in rare childhood cancers at Boston Children’s Hospital and Dana-Farber, institutions consistently ranked among the top oncology programs in the country. 
 
