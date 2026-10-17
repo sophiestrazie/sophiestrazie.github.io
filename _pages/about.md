@@ -13,8 +13,6 @@ At the age of twelve I was diagnosed with Stage III Burkitt’s lymphoma, one of
 
 I have been in remission for more than fifteen years. Overcoming such a diagnosis at an early age, along with the meaningful contact I had with research scientists that came with it, forced an early reckoning with how I wanted to spend the rest of my life. I have been deliberate about it since.
 
-Here is a clearer version:
-
 I found that my insights and skills were most useful when applied to a research agenda organized around measurement gaps: what institutions count, what they miss, and who bears the cost of the difference. That question has taken me from the economics of language (who speaks what and why), to the development of quantitative methods grounded in Indigenous research paradigms, to the study of technological change and employment. But the approach never changes: Locate the measurement that is missing or wrong, understand why, and build the better one.
 
 I hold a B.A. in Economics from McGill University and have been admitted to graduate studies at Université de Montréal, where I will work under Jean-François Godbout on the study of AI, innovation, and its relevance for public policy. 
@@ -25,7 +23,7 @@ In the past I contributed to the Indigenomics Institute’s historic $100B Indig
 
 I have a background in six languages: English, French, Spanish, Urdu, Hindi, and Persian. Each is an additional epistemic frame, a set of questions that feel obvious inside one tradition and nonsensical from outside it. A field that treats only English-language sources as data is not missing a few documents; it is missing systematic, observable patterns.
 
-In the Indigenous economy study my recommendations ensured that future versions would build capacity for economic reporting from corpora in native languages such as Inuktitut and from land-linked GIS structures. The estimate tripled in part because evidence stopped being discarded by language.
+In the Indigenous economy study, my recommendations ensured that future versions would build capacity for economic reporting from corpora in native languages such as Inuktitut and from land-linked GIS structures. The estimate tripled in part because evidence stopped being discarded by language.
 
 ## Breadth
 
@@ -50,7 +48,7 @@ I used the same period to design a card game that teaches economics through joke
 
 ## Artistic & Athletic
 
-Before research I trained as a competitive figure skater at the Skating Club of Boston. Established in 1912, SCOB was a founding member of U.S. Figure Skating and remains a recognized pipeline to the U.S. Olympic team, having trained Olympic medalists and national champions for more than a century.
+Before research I trained as a competitive figure skater at the Skating Club of Boston (SCOB). Established in 1912, it acted as a founding member of U.S. Figure Skating and remains a recognized pipeline to the U.S. Olympic team, having trained Olympic medalists and national champions for more than a century.
 
 ![Competitive Figure Skating, The Skating Club of Boston](/assets/img/scob.jpeg)
 
