@@ -7,13 +7,19 @@ description: "Sophie Strassmann: McGill economics graduate working on human capi
 permalink: /about/
 ---
 
-My work addresses measurement gaps in human capital economics: what institutions count, what they miss, and who bears the cost of the difference. That question has taken me from the economics of language and immigration to Indigenous economic valuation to the political economy of methodological change. The method is consistent: locate the measurement that is missing or wrong, understand why, and build the better one.
+I grew up between Cambridge and Brookline, Massachusetts—adjacent in geography, distant in almost everything else. 
 
-I grew up between Cambridge and Brookline, Massachusetts, communities I experienced as adjacent in geography and worlds apart in almost everything else. 
+At the age of twelve I was diagnosed with Stage III Burkitt’s lymphoma, one of the faster-growing cancers requiring aggressive chemotherapy protocols. I was treated by a care team specializing in rare childhood cancers at Boston Children’s Hospital and Dana-Farber, institutions consistently ranked among the top oncology programs in the country. 
 
-At twelve I was diagnosed with Stage III Burkitt’s lymphoma, one of the faster-growing cancers and one that requires aggressive chemotherapy protocols. I was treated by a specialist team for rare cancers at Boston Children’s Hospital and Dana-Farber, institutions consistently ranked among the top cancer programs in the country. I have been in remission for more than fifteen years. The diagnosis, and the sustained contact with research scientists that came with it, forced an early reckoning with how I wanted to spend time. I have been deliberate about it since.
+I have been in remission for more than fifteen years. Overcoming such a diagnosis at an early age, along with the meaningful contact I had with research scientists that came with it, forced an early reckoning with how I wanted to spend the rest of my life. I have been deliberate about it since.
 
-I hold a B.A. in Economics from McGill University and have been admitted to graduate studies at Université de Montréal, where I will work with Jean-François Godbout on the future of work. I contributed to the Indigenomics Institute’s $100B Indigenous Economy AI Study, which produced an estimate three times higher than Statistics Canada’s prior figure for Indigenous contribution to GDP, in part by incorporating non-English language sources. In 2025 my research and advocacy contributed to the repeal of Canada’s medical inadmissibility provisions under the Charter of Rights and Freedoms; the change began affecting real immigration cases within a month. I have held fellowships at the AI4Good Lab and Building 21, and served as a distinguished research member at the Center for AI and Digital Policy.
+Here is a clearer version:
+
+I found that my insights and skills were most useful when applied to a research agenda organized around measurement gaps: what institutions count, what they miss, and who bears the cost of the difference. That question has taken me from the economics of language (who speaks what and why), to the development of quantitative methods grounded in Indigenous research paradigms, to the study of technological change and employment. But the approach never changes: Locate the measurement that is missing or wrong, understand why, and build the better one.
+
+I hold a B.A. in Economics from McGill University and have been admitted to graduate studies at Université de Montréal, where I will work under Jean-François Godbout on the study of AI, innovation, and its relevance for public policy. 
+
+In the past I contributed to the Indigenomics Institute’s historic $100B Indigenous Economy AI Study, which produced an estimate three times higher than Statistics Canada’s prior figure for Indigenous contribution to GDP, in part by incorporating non-English language sources. In 2025 my research and advocacy contributed to the repeal of Canada’s medical inadmissibility provisions under the Charter of Rights and Freedoms; the change began affecting real immigration cases within a month. I have held fellowships at the AI4Good Lab and Building 21, served as a distinguished research member at the Center for AI and Digital Policy (CAIDP), and worked as a paid advisor and mentor to undergraduate and graduate students, almost all of whom were senior to me.
 
 ## Languages as Methodology
 
@@ -29,7 +35,9 @@ My background spans economics, geomatics, computational linguistics, machine lea
 
 I volunteered as a multilingual mental-health respondent at 7 Cups during the pandemic, maintaining a five-star rating across languages. At McGill’s Building 21 I coached researchers on translating intuition into the methodological vocabulary of their fields. I moderated economics content on Facebook, countering disinformation in one of the largest economics communities on the platform.
 
-I designed a card game that teaches economics through jokes. The jokes also won multiple awards for growing the economics community on Reddit during the pandemic. *Assume a Can Opener*, produced by Best Response Studios, now maintains a public following on LinkedIn that includes senior faculty from some of the top twenty economics departments.
+The pandemic left the public with unprecedented downtime. Presented with an opportunity, I used this extra time to get them thinking about economics: I began sharing witty economics jokes on Reddit. Ultimately I was given several awards for making economics one of the fastest-growing communities on the platform. 
+
+I used the same period to design a card game that teaches economics through jokes and brings people together around the subject. The project found an active audience among graduate students and later became *Assume a Can Opener* under [Best Response Studios](https://bestresponsestudios.github.io/). Within its first six months, and with only a handful of followers, the game’s [LinkedIn page](https://www.linkedin.com/company/assume-a-can-opener) drew the attention of senior faculty from some of the world’s leading economics departments.
 
 <video controls muted playsinline preload="metadata"
        poster="{{ '/assets/img/hq-announcement-video-preview-inline.png' | relative_url }}"
