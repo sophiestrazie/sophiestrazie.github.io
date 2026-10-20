@@ -24,7 +24,7 @@ classroom training in Urdu, Hindi, and Persian/Farsi.
 ## Education
 
 **Université de Montréal** — *Incoming graduate studies (research stream).*
-Admitted March 2026. Tutor: Prof. Jean-François Godbout. Fall 2026 entry.
+Admitted March 2026. 
 
 **McGill University** — *B.A. Economics, Islamic Studies - Urdu Minor. 2023.*
 Completed Masters/PhD coursework under Prof. Elissa Berwick in quantitative
